@@ -1,0 +1,1093 @@
+!SESSION 2025-03-10 11:47:48.258 -----------------------------------------------
+eclipse.buildId=4.34.0.202411281622
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-10 11:47:50.816
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-10 11:49:10.910
+!MESSAGE Logback config file: C:\Users\Administrator\Godarshan\Microservices\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-03-10 11:49:11.298
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-10 11:49:11.298
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-03-10 11:49:11.580
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-10 11:49:11.580
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-03-10 11:49:14.982
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-03-10 11:49:16.121
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:18:52.922
+!MESSAGE Classpath changed for project: IOCProj09-I18n
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.787
+!MESSAGE Classpath changed for project: BootDataJPAProj06-VersioningAndTimeStamping
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.793
+!MESSAGE Classpath changed for project: BootDataJpaProj01-CrudRepository
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.797
+!MESSAGE Classpath changed for project: BootDataJpaProj02-PagingAndSortingRepository
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.800
+!MESSAGE Classpath changed for project: BootDataJpaProj03-JpaRepository
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.805
+!MESSAGE Classpath changed for project: BootDataJpaProj04-CustomFinederMethods
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.813
+!MESSAGE Classpath changed for project: BootDataJpaProj05-CustomQueryMethods
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.819
+!MESSAGE Classpath changed for project: BootDataJpaProj07-WorkingWithLOBs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.820
+!MESSAGE Classpath changed for project: BootDataJpaProj08-WorkingDateTime
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.820
+!MESSAGE Classpath changed for project: BootDataJpaProj09-CallingPL-SQLProcedure-Oracke
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.821
+!MESSAGE Classpath changed for project: BootDataJpaProj10-CallingPL-SQLProcedure-MySQL
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.822
+!MESSAGE Classpath changed for project: BootDataJpaProj11-OneToManyBi
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.826
+!MESSAGE Classpath changed for project: BootDataJpaProj12-OneToManyBi-HQLJoins
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.826
+!MESSAGE Classpath changed for project: BootDataJpaProj13-InteractingWithMultipleDBs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.827
+!MESSAGE Classpath changed for project: BootDataMongoDBProj01-MongoRepository
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.828
+!MESSAGE Classpath changed for project: BootIOCProj01-DependencyInjection1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.828
+!MESSAGE Classpath changed for project: BootIOCProj02-StrategyDP
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.828
+!MESSAGE Classpath changed for project: BootIOCProj03-MiniProject-LayeredApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.829
+!MESSAGE Classpath changed for project: BootIOCProj04-DataInjection-SPEL
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.831
+!MESSAGE Classpath changed for project: BootIOCProj05-BulkInjection
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.832
+!MESSAGE Classpath changed for project: BootIOCProj06-YMLFile
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.832
+!MESSAGE Classpath changed for project: BootIOCProj07-DataInjection-SPEL-YML
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.836
+!MESSAGE Classpath changed for project: BootIOCProj08-MiniProject-Profiles-propertiesfiles
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.842
+!MESSAGE Classpath changed for project: BootIOCProj09-MiniProject-Profiles-yml files
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.846
+!MESSAGE Classpath changed for project: BootIOCProj10-MiniProject-Profiles-SingleYML file
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.846
+!MESSAGE Classpath changed for project: BootIOCProj11-MiniProject-Runners
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.847
+!MESSAGE Classpath changed for project: BootIOCProj12-MoreOnRunners
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.850
+!MESSAGE Classpath changed for project: BootIOCProj13-MiniProject-Profiles-Debugging
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.856
+!MESSAGE Classpath changed for project: BootMSProj01-EmployeeMs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.857
+!MESSAGE Classpath changed for project: BootMSProj01-NetflixEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.857
+!MESSAGE Classpath changed for project: BootMSProj02-BillingMS-ProviderMS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.858
+!MESSAGE Classpath changed for project: BootMSProj02-NetflixEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.863
+!MESSAGE Classpath changed for project: BootMSProj02-ShoppingMS-ConsumerMS-DiscoveryClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.863
+!MESSAGE Classpath changed for project: BootMSProj03-BillingMS-ProviderMS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.876
+!MESSAGE Classpath changed for project: BootMSProj03-NetflixEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.877
+!MESSAGE Classpath changed for project: BootMSProj03-ShoppingMS-ConsumerMS-LBC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.885
+!MESSAGE Classpath changed for project: BootMSProj04-BillingMS-ProviderMS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.888
+!MESSAGE Classpath changed for project: BootMSProj04-NetflixEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.895
+!MESSAGE Classpath changed for project: BootMSProj04-ShoppingMS-ConsumerMS-FeignClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.896
+!MESSAGE Classpath changed for project: BootMSProj05-NetflixEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.902
+!MESSAGE Classpath changed for project: BootMSProj06-NetflixEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.935
+!MESSAGE Classpath changed for project: BootMSProj08-NetflixEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.939
+!MESSAGE Classpath changed for project: BootMSProj08-SpringBootAdminServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.941
+!MESSAGE Classpath changed for project: BootMSProj09-BillingMS-ProviderMS-ELK
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.942
+!MESSAGE Classpath changed for project: BootMSProj09-NetflixEurekaServer-ELK
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.943
+!MESSAGE Classpath changed for project: BootMSProj09-ShoppingMS-ConsumerMS-FeignClient-ELK
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.943
+!MESSAGE Classpath changed for project: BootMSProj10-NetflixEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.944
+!MESSAGE Classpath changed for project: BootMSProj10-SpringCloudAPIGateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.944
+!MESSAGE Classpath changed for project: BootMSProj11-BillingMS-ProviderMS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.945
+!MESSAGE Classpath changed for project: BootMSProj11-NetflixEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.949
+!MESSAGE Classpath changed for project: BootMSProj11-ShoppingMS-ConsumerMS-Resilence4j
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.950
+!MESSAGE Classpath changed for project: BootMSProj12-CloudAPIGateway-MiniProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.951
+!MESSAGE Classpath changed for project: BootMVCProj01-FirstApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.952
+!MESSAGE Classpath changed for project: BootMVCProj02-DataRendering
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.952
+!MESSAGE Classpath changed for project: BootMVCProj03-SeasonFinderApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.953
+!MESSAGE Classpath changed for project: BootMVCProj04-RequestPaths
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.989
+!MESSAGE Classpath changed for project: BootMVCProj05-DataRendering-Ext
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:01.996
+!MESSAGE Classpath changed for project: BootMVCProj06-FormDataBinding-HTMLTags
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.012
+!MESSAGE Classpath changed for project: BootMVCProj07-FormDataBinding-MVCTags
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.018
+!MESSAGE Classpath changed for project: BootMVCProj08-RequestPramsBinding
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.019
+!MESSAGE Classpath changed for project: BootMVCProj09-MiniProject-CURDOperations
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.022
+!MESSAGE Classpath changed for project: BootMVCProj10-MiniProject-SoftDeletion
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.025
+!MESSAGE Classpath changed for project: BootMVCProj11-MiniProject-Pagination
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.053
+!MESSAGE Classpath changed for project: BootMVCProj12-servers
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.054
+!MESSAGE Classpath changed for project: BootMVCProj13-MiniProject-thymeleaf
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.057
+!MESSAGE Classpath changed for project: BootMVCProj14-MiniProject-Interceptors
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.060
+!MESSAGE Classpath changed for project: BootMVCProj15-I18nApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.062
+!MESSAGE Classpath changed for project: BootMsProj05-ConfigServer-ExternalConfigFile
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.064
+!MESSAGE Classpath changed for project: BootMsProj05-CustomerMS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.068
+!MESSAGE Classpath changed for project: BootMsProj05-EmployeeMS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.069
+!MESSAGE Classpath changed for project: BootMsProj06-ConfigServer-NativeConfigFile
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.070
+!MESSAGE Classpath changed for project: BootMsProj06-CustomerMS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.078
+!MESSAGE Classpath changed for project: BootMsProj06-EmployeeMS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.078
+!MESSAGE Classpath changed for project: BootMsProj07-SpringBootActuators
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.079
+!MESSAGE Classpath changed for project: BootMsProj08-CustomerMS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.079
+!MESSAGE Classpath changed for project: BootMsProj08-EmployeeMS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.080
+!MESSAGE Classpath changed for project: BootMsProj10-CustomerMS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.080
+!MESSAGE Classpath changed for project: BootMsProj10-EmployeeMS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.080
+!MESSAGE Classpath changed for project: BootMsProj12-AdminServer-MiniProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.081
+!MESSAGE Classpath changed for project: BootMsProj12-EurekaServer-MiniProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.081
+!MESSAGE Classpath changed for project: BootMsProj12-IPLPlayerService1-ChildMs-MiniProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.082
+!MESSAGE Classpath changed for project: BootMsProj15-ConfigServer-MiniProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.082
+!MESSAGE Classpath changed for project: BootMsProj15-IPLTeamService-ProviderMs-MiniProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.095
+!MESSAGE Classpath changed for project: BootRestProj01-ProviderApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.102
+!MESSAGE Classpath changed for project: BootRestProj02-ProviderApp-AllModes
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.103
+!MESSAGE Classpath changed for project: BootRestProj03-SendingJSONContentAsResponse
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.104
+!MESSAGE Classpath changed for project: BootRestProj04-SendingXMLContentAsResponse
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.105
+!MESSAGE Classpath changed for project: BootRestProj05-MediaTypeAnnotation-RequestBody
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.105
+!MESSAGE Classpath changed for project: BootRestProj05-MediaTypeAnnotation-RequestBodyJSON
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.106
+!MESSAGE Classpath changed for project: BootRestProj06-MediaTypeAnnotation-RequestBodyXML
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.110
+!MESSAGE Classpath changed for project: BootRestProj07-RequestBodyAnno-getgingJSONcontent
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.111
+!MESSAGE Classpath changed for project: BootRestProj08-RequestParams
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.113
+!MESSAGE Classpath changed for project: BootRestProj09-PathVariables
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.113
+!MESSAGE Classpath changed for project: BootRestProj10-MiniProject-CURDOperations
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.114
+!MESSAGE Classpath changed for project: BootRestProj11-MiniProject-SwaggerAPI-OpenAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.115
+!MESSAGE Classpath changed for project: BootRestProj12-ConsumerApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.118
+!MESSAGE Classpath changed for project: BootRestProj13-ConsumerApp-exchange
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.122
+!MESSAGE Classpath changed for project: BootRestRedisProj01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.122
+!MESSAGE Classpath changed for project: BootSchedulingProj01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.123
+!MESSAGE Classpath changed for project: BootWebFluxProj01-ReactiveConsumerApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.124
+!MESSAGE Classpath changed for project: BootWebFluxProj01-ReactiveProviderApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.124
+!MESSAGE Classpath changed for project: IOCProj01-DependencyInjection
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.125
+!MESSAGE Boot project ADDED: IOCProj01-DependencyInjection
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.126
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.247
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.249
+!MESSAGE Classpath changed for project: IOCProj02-Factory Pattern
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.250
+!MESSAGE Classpath changed for project: IOCProj03-StrategyDP-UsingCoreJava
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.252
+!MESSAGE Classpath changed for project: IOCProj04-StrategyDP-UsingSpring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.254
+!MESSAGE Boot project ADDED: IOCProj04-StrategyDP-UsingSpring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.255
+!MESSAGE Classpath changed for project: IOCProj05-StrategyDP-Maven-Spring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.256
+!MESSAGE Classpath changed for project: IOCProj06-SingletonJavaClass-CoreJAva
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.256
+!MESSAGE Classpath changed for project: IOCProj07-DependencyInjection-SpringBeanScopes
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.258
+!MESSAGE Boot project ADDED: IOCProj07-DependencyInjection-SpringBeanScopes
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.259
+!MESSAGE Classpath changed for project: IOCProj08-PropertiesFiles
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.260
+!MESSAGE Classpath changed for project: IOCProj10-StrategyDP-Maven-Spring-LooseCoupling
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.261
+!MESSAGE Classpath changed for project: IOCProj11-SpringBeanLifeCycle
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-10 14:19:02.273
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\Administrator\Desktop\springboot\spring-tool-suite-4-4.27.0.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.27.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/Administrator/Godarshan/Microservices/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1741596542268
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\Administrator\Desktop\springboot\spring-tool-suite-4-4.27.0.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.27.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.59.0.202411281450\servers\spring-boot-language-server\spring-boot-language-server-1.59.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:02.279
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-10 14:19:02.287
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 15196
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:25.063
+!MESSAGE Classpath changed for project: IOCProj09-I18n
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:25.064
+!MESSAGE Boot project ADDED: IOCProj09-I18n
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:36.768
+!MESSAGE Classpath changed for project: BootDataJPAProj06-VersioningAndTimeStamping
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:36.773
+!MESSAGE Boot project ADDED: BootDataJPAProj06-VersioningAndTimeStamping
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:44.241
+!MESSAGE Classpath changed for project: BootDataJPAProj06-VersioningAndTimeStamping
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:47.408
+!MESSAGE Classpath changed for project: BootDataJpaProj01-CrudRepository
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:47.409
+!MESSAGE Boot project ADDED: BootDataJpaProj01-CrudRepository
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:48.226
+!MESSAGE Classpath changed for project: BootDataJPAProj06-VersioningAndTimeStamping
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:51.371
+!MESSAGE Classpath changed for project: BootDataJpaProj02-PagingAndSortingRepository
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:19:51.372
+!MESSAGE Boot project ADDED: BootDataJpaProj02-PagingAndSortingRepository
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.976
+!MESSAGE Classpath changed for project: BootDataJpaProj02-PagingAndSortingRepository
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.976
+!MESSAGE Boot project REMOVED: BootDataJpaProj02-PagingAndSortingRepository
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.977
+!MESSAGE Classpath changed for project: BootDataJpaProj03-JpaRepository
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.978
+!MESSAGE Classpath changed for project: BootDataJpaProj05-CustomQueryMethods
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.979
+!MESSAGE Classpath changed for project: BootDataJpaProj08-WorkingDateTime
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.979
+!MESSAGE Classpath changed for project: BootDataJpaProj09-CallingPL-SQLProcedure-Oracke
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.980
+!MESSAGE Classpath changed for project: BootDataJpaProj10-CallingPL-SQLProcedure-MySQL
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.980
+!MESSAGE Classpath changed for project: BootDataJpaProj11-OneToManyBi
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.981
+!MESSAGE Classpath changed for project: BootDataJpaProj12-OneToManyBi-HQLJoins
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.981
+!MESSAGE Classpath changed for project: BootDataJpaProj13-InteractingWithMultipleDBs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.982
+!MESSAGE Classpath changed for project: BootIOCProj01-DependencyInjection1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.982
+!MESSAGE Classpath changed for project: BootIOCProj04-DataInjection-SPEL
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.983
+!MESSAGE Classpath changed for project: BootIOCProj05-BulkInjection
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.983
+!MESSAGE Classpath changed for project: BootIOCProj08-MiniProject-Profiles-propertiesfiles
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.984
+!MESSAGE Classpath changed for project: BootIOCProj09-MiniProject-Profiles-yml files
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.984
+!MESSAGE Classpath changed for project: BootIOCProj12-MoreOnRunners
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.984
+!MESSAGE Classpath changed for project: BootIOCProj13-MiniProject-Profiles-Debugging
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.986
+!MESSAGE Classpath changed for project: BootMSProj01-NetflixEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.987
+!MESSAGE Classpath changed for project: BootMSProj02-ShoppingMS-ConsumerMS-DiscoveryClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.987
+!MESSAGE Classpath changed for project: BootMSProj03-ShoppingMS-ConsumerMS-LBC
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.988
+!MESSAGE Classpath changed for project: BootMSProj04-BillingMS-ProviderMS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.988
+!MESSAGE Classpath changed for project: BootMSProj05-NetflixEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.989
+!MESSAGE Classpath changed for project: BootMSProj06-NetflixEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.989
+!MESSAGE Classpath changed for project: BootMSProj09-NetflixEurekaServer-ELK
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.990
+!MESSAGE Classpath changed for project: BootMSProj09-ShoppingMS-ConsumerMS-FeignClient-ELK
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.991
+!MESSAGE Classpath changed for project: BootMSProj10-NetflixEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.991
+!MESSAGE Classpath changed for project: BootMSProj11-BillingMS-ProviderMS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.992
+!MESSAGE Classpath changed for project: BootMSProj11-NetflixEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.992
+!MESSAGE Classpath changed for project: BootMVCProj01-FirstApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.993
+!MESSAGE Classpath changed for project: BootMVCProj02-DataRendering
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.995
+!MESSAGE Classpath changed for project: BootMVCProj03-SeasonFinderApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.995
+!MESSAGE Classpath changed for project: BootMVCProj09-MiniProject-CURDOperations
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.996
+!MESSAGE Classpath changed for project: BootMVCProj11-MiniProject-Pagination
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.996
+!MESSAGE Classpath changed for project: BootMVCProj12-servers
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.997
+!MESSAGE Classpath changed for project: BootMVCProj14-MiniProject-Interceptors
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.997
+!MESSAGE Classpath changed for project: BootMVCProj15-I18nApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.998
+!MESSAGE Classpath changed for project: BootMsProj05-ConfigServer-ExternalConfigFile
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.998
+!MESSAGE Classpath changed for project: BootMsProj06-ConfigServer-NativeConfigFile
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:08.999
+!MESSAGE Classpath changed for project: BootMsProj06-CustomerMS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.000
+!MESSAGE Classpath changed for project: BootMsProj06-EmployeeMS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.000
+!MESSAGE Classpath changed for project: BootMsProj08-CustomerMS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.001
+!MESSAGE Classpath changed for project: BootMsProj08-EmployeeMS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.001
+!MESSAGE Classpath changed for project: BootMsProj10-CustomerMS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.002
+!MESSAGE Classpath changed for project: BootMsProj10-EmployeeMS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.003
+!MESSAGE Classpath changed for project: BootMsProj12-EurekaServer-MiniProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.003
+!MESSAGE Classpath changed for project: BootMsProj12-IPLPlayerService1-ChildMs-MiniProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.004
+!MESSAGE Classpath changed for project: BootMsProj15-ConfigServer-MiniProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.004
+!MESSAGE Classpath changed for project: BootRestProj02-ProviderApp-AllModes
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.005
+!MESSAGE Classpath changed for project: BootRestProj04-SendingXMLContentAsResponse
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.005
+!MESSAGE Classpath changed for project: BootRestProj05-MediaTypeAnnotation-RequestBody
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.006
+!MESSAGE Classpath changed for project: BootRestProj06-MediaTypeAnnotation-RequestBodyXML
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.006
+!MESSAGE Classpath changed for project: BootRestProj11-MiniProject-SwaggerAPI-OpenAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.007
+!MESSAGE Classpath changed for project: BootRestProj12-ConsumerApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.008
+!MESSAGE Classpath changed for project: BootWebFluxProj01-ReactiveProviderApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.008
+!MESSAGE Classpath changed for project: IOCProj02-Factory Pattern
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.009
+!MESSAGE Classpath changed for project: IOCProj04-StrategyDP-UsingSpring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.010
+!MESSAGE Boot project REMOVED: IOCProj04-StrategyDP-UsingSpring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.010
+!MESSAGE Classpath changed for project: IOCProj05-StrategyDP-Maven-Spring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.011
+!MESSAGE Classpath changed for project: IOCProj07-DependencyInjection-SpringBeanScopes
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.011
+!MESSAGE Boot project REMOVED: IOCProj07-DependencyInjection-SpringBeanScopes
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.012
+!MESSAGE Classpath changed for project: IOCProj08-PropertiesFiles
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.012
+!MESSAGE Classpath changed for project: IOCProj09-I18n
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.013
+!MESSAGE Boot project REMOVED: IOCProj09-I18n
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.013
+!MESSAGE Classpath changed for project: IOCProj11-SpringBeanLifeCycle
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.797
+!MESSAGE Classpath changed for project: BootDataJPAProj06-VersioningAndTimeStamping
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.797
+!MESSAGE Boot project REMOVED: BootDataJPAProj06-VersioningAndTimeStamping
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.798
+!MESSAGE Classpath changed for project: BootDataJpaProj01-CrudRepository
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.799
+!MESSAGE Boot project REMOVED: BootDataJpaProj01-CrudRepository
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.799
+!MESSAGE Classpath changed for project: BootDataJpaProj04-CustomFinederMethods
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.800
+!MESSAGE Classpath changed for project: BootDataJpaProj07-WorkingWithLOBs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.800
+!MESSAGE Classpath changed for project: BootDataMongoDBProj01-MongoRepository
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.801
+!MESSAGE Classpath changed for project: BootIOCProj02-StrategyDP
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.801
+!MESSAGE Classpath changed for project: BootIOCProj03-MiniProject-LayeredApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.802
+!MESSAGE Classpath changed for project: BootIOCProj06-YMLFile
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.802
+!MESSAGE Classpath changed for project: BootIOCProj07-DataInjection-SPEL-YML
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.804
+!MESSAGE Classpath changed for project: BootIOCProj10-MiniProject-Profiles-SingleYML file
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.804
+!MESSAGE Classpath changed for project: BootIOCProj11-MiniProject-Runners
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.805
+!MESSAGE Classpath changed for project: BootMSProj01-EmployeeMs
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.805
+!MESSAGE Classpath changed for project: BootMSProj02-BillingMS-ProviderMS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.806
+!MESSAGE Classpath changed for project: BootMSProj02-NetflixEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.806
+!MESSAGE Classpath changed for project: BootMSProj03-BillingMS-ProviderMS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.807
+!MESSAGE Classpath changed for project: BootMSProj03-NetflixEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.807
+!MESSAGE Classpath changed for project: BootMSProj04-NetflixEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.808
+!MESSAGE Classpath changed for project: BootMSProj04-ShoppingMS-ConsumerMS-FeignClient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.809
+!MESSAGE Classpath changed for project: BootMSProj08-NetflixEurekaServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.810
+!MESSAGE Classpath changed for project: BootMSProj08-SpringBootAdminServer
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.810
+!MESSAGE Classpath changed for project: BootMSProj09-BillingMS-ProviderMS-ELK
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.811
+!MESSAGE Classpath changed for project: BootMSProj10-SpringCloudAPIGateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.811
+!MESSAGE Classpath changed for project: BootMSProj11-ShoppingMS-ConsumerMS-Resilence4j
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.812
+!MESSAGE Classpath changed for project: BootMSProj12-CloudAPIGateway-MiniProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.812
+!MESSAGE Classpath changed for project: BootMVCProj04-RequestPaths
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.813
+!MESSAGE Classpath changed for project: BootMVCProj05-DataRendering-Ext
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.813
+!MESSAGE Classpath changed for project: BootMVCProj06-FormDataBinding-HTMLTags
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.814
+!MESSAGE Classpath changed for project: BootMVCProj07-FormDataBinding-MVCTags
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.814
+!MESSAGE Classpath changed for project: BootMVCProj08-RequestPramsBinding
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.815
+!MESSAGE Classpath changed for project: BootMVCProj10-MiniProject-SoftDeletion
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.816
+!MESSAGE Classpath changed for project: BootMVCProj13-MiniProject-thymeleaf
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.818
+!MESSAGE Classpath changed for project: BootMsProj05-CustomerMS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.819
+!MESSAGE Classpath changed for project: BootMsProj05-EmployeeMS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.819
+!MESSAGE Classpath changed for project: BootMsProj07-SpringBootActuators
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.820
+!MESSAGE Classpath changed for project: BootMsProj12-AdminServer-MiniProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.820
+!MESSAGE Classpath changed for project: BootMsProj15-IPLTeamService-ProviderMs-MiniProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.821
+!MESSAGE Classpath changed for project: BootRestProj01-ProviderApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.821
+!MESSAGE Classpath changed for project: BootRestProj03-SendingJSONContentAsResponse
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.822
+!MESSAGE Classpath changed for project: BootRestProj05-MediaTypeAnnotation-RequestBodyJSON
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.823
+!MESSAGE Classpath changed for project: BootRestProj07-RequestBodyAnno-getgingJSONcontent
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.824
+!MESSAGE Classpath changed for project: BootRestProj08-RequestParams
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.827
+!MESSAGE Classpath changed for project: BootRestProj09-PathVariables
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.828
+!MESSAGE Classpath changed for project: BootRestProj10-MiniProject-CURDOperations
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.829
+!MESSAGE Classpath changed for project: BootRestProj13-ConsumerApp-exchange
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.830
+!MESSAGE Classpath changed for project: BootRestRedisProj01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.830
+!MESSAGE Classpath changed for project: BootSchedulingProj01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.831
+!MESSAGE Classpath changed for project: BootWebFluxProj01-ReactiveConsumerApp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.831
+!MESSAGE Classpath changed for project: IOCProj01-DependencyInjection
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.831
+!MESSAGE Boot project REMOVED: IOCProj01-DependencyInjection
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.832
+!MESSAGE Classpath changed for project: IOCProj03-StrategyDP-UsingCoreJava
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.833
+!MESSAGE Classpath changed for project: IOCProj06-SingletonJavaClass-CoreJAva
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 14:20:09.833
+!MESSAGE Classpath changed for project: IOCProj10-StrategyDP-Maven-Spring-LooseCoupling
+!SESSION 2025-03-10 14:34:03.358 -----------------------------------------------
+eclipse.buildId=4.34.0.202411281622
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-10 14:34:07.274
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-03-10 14:34:15.103
+!MESSAGE Logback config file: C:\Users\Administrator\Godarshan\Microservices\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-03-10 14:34:15.805
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-10 14:34:15.805
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-03-10 14:34:16.245
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-03-10 14:34:16.245
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-03-10 14:34:20.241
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-03-10 14:34:21.695
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 15:26:58.690
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 15:26:58.691
+!MESSAGE Boot project ADDED: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 15:26:58.692
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 15:26:58.721
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-10 15:26:58.740
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\Administrator\Desktop\springboot\spring-tool-suite-4-4.27.0.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.27.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/Administrator/Godarshan/Microservices/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1741600618737
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\Administrator\Desktop\springboot\spring-tool-suite-4-4.27.0.RELEASE-e4.34.0-win32.win32.x86_64\sts-4.27.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.59.0.202411281450\servers\spring-boot-language-server\spring-boot-language-server-1.59.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 15:26:58.741
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-03-10 15:26:58.748
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 16696
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 15:27:00.565
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 15:28:14.955
+!MESSAGE Classpath changed for project: SB-Eureka_Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 15:28:14.957
+!MESSAGE Boot project ADDED: SB-Eureka_Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 15:28:15.723
+!MESSAGE Classpath changed for project: SB-Eureka_Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 15:28:20.336
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 15:28:20.338
+!MESSAGE Boot project REMOVED: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 15:31:11.331
+!MESSAGE Classpath changed for project: SB-Search_Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 15:31:11.332
+!MESSAGE Boot project ADDED: SB-Search_Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 15:31:12.189
+!MESSAGE Classpath changed for project: SB-Search_Service
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-03-10 15:43:19.093
+!MESSAGE Could not download sources for de.codecentric:spring-boot-admin-starter-server:3.4.5
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact de.codecentric:spring-boot-admin-starter-server:jar:sources:3.4.5
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing de.codecentric:spring-boot-admin-starter-server:jar:sources:3.4.5
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2025-03-10 15:43:19.093
+!MESSAGE Could not resolve artifact de.codecentric:spring-boot-admin-starter-server:jar:sources:3.4.5
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-03-10 15:43:19.093
+!MESSAGE Missing de.codecentric:spring-boot-admin-starter-server:jar:sources:3.4.5
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 15:43:19.165
+!MESSAGE Classpath changed for project: SB_Admin_Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 15:43:19.166
+!MESSAGE Boot project ADDED: SB_Admin_Server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 15:43:22.474
+!MESSAGE Classpath changed for project: SB_Admin_Server
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-03-10 15:43:52.882
+!MESSAGE Could not download javadoc for de.codecentric:spring-boot-admin-starter-server:3.4.5
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact de.codecentric:spring-boot-admin-starter-server:jar:javadoc:3.4.5
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing de.codecentric:spring-boot-admin-starter-server:jar:javadoc:3.4.5
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2025-03-10 15:43:52.883
+!MESSAGE Could not resolve artifact de.codecentric:spring-boot-admin-starter-server:jar:javadoc:3.4.5
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-03-10 15:43:52.883
+!MESSAGE Missing de.codecentric:spring-boot-admin-starter-server:jar:javadoc:3.4.5
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 15:49:37.895
+!MESSAGE Classpath changed for project: SB-Search_Service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 15:49:37.896
+!MESSAGE Boot project REMOVED: SB-Search_Service
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-03-10 15:49:37.908
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): SB-Search_Service does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2535)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2329)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2372)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-03-10 15:49:37.909
+!MESSAGE SB-Search_Service does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-03-10 15:59:27.290
+!MESSAGE Could not download sources for de.codecentric:spring-boot-admin-starter-client:3.4.5
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact de.codecentric:spring-boot-admin-starter-client:jar:sources:3.4.5
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing de.codecentric:spring-boot-admin-starter-client:jar:sources:3.4.5
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2025-03-10 15:59:27.291
+!MESSAGE Could not resolve artifact de.codecentric:spring-boot-admin-starter-client:jar:sources:3.4.5
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-03-10 15:59:27.291
+!MESSAGE Missing de.codecentric:spring-boot-admin-starter-client:jar:sources:3.4.5
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 15:59:27.366
+!MESSAGE Classpath changed for project: Birthday-Restful
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 15:59:27.366
+!MESSAGE Boot project ADDED: Birthday-Restful
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 15:59:28.665
+!MESSAGE Classpath changed for project: Birthday-Restful
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 15:59:29.102
+!MESSAGE Classpath changed for project: Birthday-Restful
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-03-10 16:06:41.732
+!MESSAGE Could not download javadoc for de.codecentric:spring-boot-admin-starter-client:3.4.5
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact de.codecentric:spring-boot-admin-starter-client:jar:javadoc:3.4.5
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing de.codecentric:spring-boot-admin-starter-client:jar:javadoc:3.4.5
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2025-03-10 16:06:41.732
+!MESSAGE Could not resolve artifact de.codecentric:spring-boot-admin-starter-client:jar:javadoc:3.4.5
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-03-10 16:06:41.732
+!MESSAGE Missing de.codecentric:spring-boot-admin-starter-client:jar:javadoc:3.4.5
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 16:13:30.240
+!MESSAGE Classpath changed for project: Congrats-Rest
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 16:13:30.242
+!MESSAGE Boot project ADDED: Congrats-Rest
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-03-10 16:13:30.427
+!MESSAGE Could not download sources for org.springframework.cloud:spring-cloud-starter-openfeign:4.2.0
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-openfeign:jar:sources:4.2.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-openfeign:jar:sources:4.2.0
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2025-03-10 16:13:30.427
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-openfeign:jar:sources:4.2.0
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-03-10 16:13:30.427
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-openfeign:jar:sources:4.2.0
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-03-10 16:13:31.267
+!MESSAGE Classpath changed for project: Congrats-Rest
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-03-10 16:17:07.757
+!MESSAGE Could not download javadoc for org.springframework.cloud:spring-cloud-starter-openfeign:4.2.0
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-openfeign:jar:javadoc:4.2.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-openfeign:jar:javadoc:4.2.0
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2025-03-10 16:17:07.757
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-openfeign:jar:javadoc:4.2.0
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-03-10 16:17:07.757
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-openfeign:jar:javadoc:4.2.0
