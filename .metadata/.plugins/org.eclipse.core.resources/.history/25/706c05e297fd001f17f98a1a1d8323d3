@@ -1,5 +1,0 @@
-spring.application.name=SB-Eureka_Server
-
-server.port=9090
-
-
