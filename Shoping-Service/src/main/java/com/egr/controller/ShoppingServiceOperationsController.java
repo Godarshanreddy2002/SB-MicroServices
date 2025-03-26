@@ -2,6 +2,8 @@ package com.egr.controller;
 
 import java.util.Random;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -18,14 +20,27 @@ public class ShoppingServiceOperationsController
 	@Autowired
 	private BillingServiceRestConsumer client;
 	
+	private static final Logger logger = LoggerFactory.getLogger(ShoppingServiceOperationsController.class);
 	
 	@GetMapping("/details")
 	public ResponseEntity<String> showBillDetails()
 	{
-		String resultBody=client.getBillInfo();
 		
-		String billInfo="Bill amount::"+new Random().nextInt(100000);		
-		return new ResponseEntity<String>(billInfo+" ..... "+resultBody,HttpStatus.OK);
+		
+		logger.info("Received request for billing details.");
+        
+        logger.info("Fetching Billing information from Billing-Service...");
+        String resultBody = client.getBillInfo();
+        logger.debug("Billing-Service response: {}", resultBody);
+        
+        logger.info("Generating random bill amount...");
+        String billInfo = "Bill amount::" + new Random().nextInt(100000);
+        logger.debug("Generated Bill Info: {}", billInfo);
+        
+        String finalResponse = billInfo + " ..... " + resultBody;
+        logger.info("Final response prepared successfully.");
+
+        return new ResponseEntity<>(finalResponse, HttpStatus.OK);
 	}
 	
 
