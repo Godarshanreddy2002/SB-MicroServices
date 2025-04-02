@@ -1,1007 +1,41 @@
-2025-03-27 13:19:49 - INFO - com.egr.ConfigClient1Application - Starting ConfigClient1Application using Java 17.0.12 with PID 14736 (C:\Users\Administrator\Godarshan\Microservices\Billing_service\target\classes started by Administrator in C:\Users\Administrator\Godarshan\Microservices\Billing_service)
-2025-03-27 13:19:49 - INFO - com.egr.ConfigClient1Application - No active profile set, falling back to 1 default profile: "default"
-2025-03-27 13:19:49 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-03-27 13:19:49 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-03-27 13:19:50 - INFO - o.s.cloud.context.scope.GenericScope - BeanFactory id=fdff8852-fe53-398d-8fb5-98006826813f
-2025-03-27 13:19:50 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9900 (http)
-2025-03-27 13:19:50 - INFO - o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
-2025-03-27 13:19:50 - INFO - o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
-2025-03-27 13:19:50 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-03-27 13:19:50 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-27 13:19:50 - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-03-27 13:19:50 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1216 ms
-2025-03-27 13:19:51 - WARN - o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
-2025-03-27 13:19:51 - INFO - o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
-2025-03-27 13:19:51 - WARN - o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-03-27 13:19:51 - INFO - o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
-2025-03-27 13:19:51 - INFO - c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
-2025-03-27 13:19:51 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 13:19:51 - INFO - c.netflix.discovery.DiscoveryClient - Disable delta property : false
-2025-03-27 13:19:51 - INFO - c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
-2025-03-27 13:19:51 - INFO - c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
-2025-03-27 13:19:51 - INFO - c.netflix.discovery.DiscoveryClient - Application is null : false
-2025-03-27 13:19:51 - INFO - c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
-2025-03-27 13:19:51 - INFO - c.netflix.discovery.DiscoveryClient - Application version is -1: true
-2025-03-27 13:19:51 - INFO - c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
-2025-03-27 13:19:52 - INFO - c.netflix.discovery.DiscoveryClient - The response status is 200
-2025-03-27 13:19:52 - INFO - c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
-2025-03-27 13:19:52 - INFO - c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-03-27 13:19:52 - INFO - c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1743061792238 with initial instances count: 0
-2025-03-27 13:19:52 - INFO - o.s.c.n.e.s.EurekaServiceRegistry - Registering application BILLING-SERVICE with eureka with status UP
-2025-03-27 13:19:52 - INFO - c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1743061792242, current=UP, previous=STARTING]
-2025-03-27 13:19:52 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900: registering service...
-2025-03-27 13:19:52 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9900 (http) with context path '/'
-2025-03-27 13:19:52 - INFO - o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9900
-2025-03-27 13:19:52 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - registration status: 204
-2025-03-27 13:19:52 - INFO - com.egr.ConfigClient1Application - Started ConfigClient1Application in 3.511 seconds (process running for 4.266)
-2025-03-27 13:20:22 - INFO - c.netflix.discovery.DiscoveryClient - Disable delta property : false
-2025-03-27 13:20:22 - INFO - c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
-2025-03-27 13:20:22 - INFO - c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
-2025-03-27 13:20:22 - INFO - c.netflix.discovery.DiscoveryClient - Application is null : false
-2025-03-27 13:20:22 - INFO - c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
-2025-03-27 13:20:22 - INFO - c.netflix.discovery.DiscoveryClient - Application version is -1: false
-2025-03-27 13:20:22 - INFO - c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
-2025-03-27 13:20:22 - INFO - c.netflix.discovery.DiscoveryClient - The response status is 200
-2025-03-27 13:20:58 - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-03-27 13:20:58 - INFO - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2025-03-27 13:20:58 - INFO - o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
-2025-03-27 13:20:58 - INFO - c.e.c.BillingServuiveController - Getting billing details from Billing micro service
-2025-03-27 13:22:29 - INFO - c.e.c.BillingServuiveController - Getting billing details from Billing micro service
-2025-03-27 13:23:31 - INFO - c.e.c.BillingServuiveController - Getting billing details from Billing micro service
-2025-03-27 13:23:39 - INFO - c.e.c.BillingServuiveController - Getting billing details from Billing micro service
-2025-03-27 13:23:42 - INFO - c.e.c.BillingServuiveController - Getting billing details from Billing micro service
-2025-03-27 13:23:43 - INFO - c.e.c.BillingServuiveController - Getting billing details from Billing micro service
-2025-03-27 13:24:51 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 13:25:41 - INFO - c.e.c.BillingServuiveController - Getting billing details from Billing micro service
-2025-03-27 13:29:51 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 13:34:51 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 13:39:51 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 13:44:51 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 13:49:51 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 13:54:51 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 13:59:51 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 14:04:51 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 14:33:15 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 14:33:26 - INFO - c.e.c.BillingServuiveController - Getting billing details from Billing micro service
-2025-03-27 14:34:24 - INFO - c.e.c.BillingServuiveController - Getting billing details from Billing micro service
-2025-03-27 14:34:25 - INFO - c.e.c.BillingServuiveController - Getting billing details from Billing micro service
-2025-03-27 14:38:15 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 14:43:15 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 14:48:15 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 14:53:15 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 14:58:15 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 15:03:15 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 15:08:15 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 15:11:05 - INFO - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2025-03-27 15:11:05 - INFO - o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application BILLING-SERVICE with eureka with status DOWN
-2025-03-27 15:11:05 - INFO - c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1743068465669, current=DOWN, previous=UP]
-2025-03-27 15:11:05 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900: registering service...
-2025-03-27 15:11:05 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-27 15:11:05 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - registration status: 204
-2025-03-27 15:11:05 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-03-27 15:11:05 - INFO - c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
-2025-03-27 15:11:09 - INFO - c.netflix.discovery.DiscoveryClient - Unregistering ...
-2025-03-27 15:11:09 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - deregister  status: 200
-2025-03-27 15:11:09 - INFO - c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
-2025-03-27 15:11:09 - INFO - com.egr.ConfigClient1Application - Starting ConfigClient1Application using Java 17.0.12 with PID 14736 (C:\Users\Administrator\Godarshan\Microservices\Billing_service\target\classes started by Administrator in C:\Users\Administrator\Godarshan\Microservices\Billing_service)
-2025-03-27 15:11:09 - INFO - com.egr.ConfigClient1Application - No active profile set, falling back to 1 default profile: "default"
-2025-03-27 15:27:51 - INFO - com.egr.ConfigClient1Application - Starting ConfigClient1Application using Java 17.0.12 with PID 6968 (C:\Users\Administrator\Godarshan\Microservices\Billing_service\target\classes started by Administrator in C:\Users\Administrator\Godarshan\Microservices\Billing_service)
-2025-03-27 15:27:51 - INFO - com.egr.ConfigClient1Application - No active profile set, falling back to 1 default profile: "default"
-2025-03-27 15:27:51 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-03-27 15:27:51 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-03-27 15:27:52 - INFO - o.s.cloud.context.scope.GenericScope - BeanFactory id=20484adb-a0cb-326a-9ec6-92465724c1c8
-2025-03-27 15:27:52 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9900 (http)
-2025-03-27 15:27:52 - INFO - o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
-2025-03-27 15:27:52 - INFO - o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
-2025-03-27 15:27:52 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-03-27 15:27:52 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-27 15:27:52 - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-03-27 15:27:52 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1488 ms
-2025-03-27 15:27:53 - WARN - o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
-2025-03-27 15:27:53 - INFO - o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
-2025-03-27 15:27:53 - WARN - o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-03-27 15:27:53 - INFO - o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
-2025-03-27 15:27:53 - INFO - o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
-2025-03-27 15:27:54 - INFO - c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
-2025-03-27 15:27:54 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 15:27:54 - INFO - c.netflix.discovery.DiscoveryClient - Disable delta property : false
-2025-03-27 15:27:54 - INFO - c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
-2025-03-27 15:27:54 - INFO - c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
-2025-03-27 15:27:54 - INFO - c.netflix.discovery.DiscoveryClient - Application is null : false
-2025-03-27 15:27:54 - INFO - c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
-2025-03-27 15:27:54 - INFO - c.netflix.discovery.DiscoveryClient - Application version is -1: true
-2025-03-27 15:27:54 - INFO - c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
-2025-03-27 15:27:54 - INFO - c.netflix.discovery.DiscoveryClient - The response status is 200
-2025-03-27 15:27:54 - INFO - c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
-2025-03-27 15:27:54 - INFO - c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-03-27 15:27:54 - INFO - c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1743069474338 with initial instances count: 0
-2025-03-27 15:27:54 - INFO - o.s.c.n.e.s.EurekaServiceRegistry - Registering application BILLING-SERVICE with eureka with status UP
-2025-03-27 15:27:54 - INFO - c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1743069474342, current=UP, previous=STARTING]
-2025-03-27 15:27:54 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900: registering service...
-2025-03-27 15:27:54 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9900 (http) with context path '/'
-2025-03-27 15:27:54 - INFO - o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9900
-2025-03-27 15:27:54 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - registration status: 204
-2025-03-27 15:27:54 - INFO - com.egr.ConfigClient1Application - Started ConfigClient1Application in 3.934 seconds (process running for 4.79)
-2025-03-27 15:27:54 - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-03-27 15:27:54 - INFO - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2025-03-27 15:27:54 - INFO - o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-2025-03-27 15:28:24 - INFO - c.netflix.discovery.DiscoveryClient - Disable delta property : false
-2025-03-27 15:28:24 - INFO - c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
-2025-03-27 15:28:24 - INFO - c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
-2025-03-27 15:28:24 - INFO - c.netflix.discovery.DiscoveryClient - Application is null : false
-2025-03-27 15:28:24 - INFO - c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
-2025-03-27 15:28:24 - INFO - c.netflix.discovery.DiscoveryClient - Application version is -1: false
-2025-03-27 15:28:24 - INFO - c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
-2025-03-27 15:28:24 - INFO - c.netflix.discovery.DiscoveryClient - The response status is 200
-2025-03-27 15:32:54 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 15:37:54 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 15:42:54 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 15:45:51 - INFO - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2025-03-27 15:45:51 - INFO - o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application BILLING-SERVICE with eureka with status DOWN
-2025-03-27 15:45:51 - INFO - c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1743070551587, current=DOWN, previous=UP]
-2025-03-27 15:45:51 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900: registering service...
-2025-03-27 15:45:51 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-27 15:45:51 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - registration status: 204
-2025-03-27 15:45:51 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-03-27 15:45:51 - INFO - c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
-2025-03-27 15:45:54 - INFO - c.netflix.discovery.DiscoveryClient - Unregistering ...
-2025-03-27 15:45:54 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - deregister  status: 200
-2025-03-27 15:45:54 - INFO - c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
-2025-03-27 15:45:55 - INFO - com.egr.ConfigClient1Application - Starting ConfigClient1Application using Java 17.0.12 with PID 6968 (C:\Users\Administrator\Godarshan\Microservices\Billing_service\target\classes started by Administrator in C:\Users\Administrator\Godarshan\Microservices\Billing_service)
-2025-03-27 15:45:55 - INFO - com.egr.ConfigClient1Application - No active profile set, falling back to 1 default profile: "default"
-2025-03-27 15:45:55 - INFO - o.s.cloud.context.scope.GenericScope - BeanFactory id=ae1f2003-83c6-3009-b6da-fc96e3d877d0
-2025-03-27 15:45:55 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9900 (http)
-2025-03-27 15:45:55 - INFO - o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
-2025-03-27 15:45:55 - INFO - o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
-2025-03-27 15:45:55 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-03-27 15:45:55 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-27 15:45:55 - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-03-27 15:45:55 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 576 ms
-2025-03-27 15:45:56 - WARN - o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
-2025-03-27 15:45:56 - INFO - o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
-2025-03-27 15:45:56 - WARN - o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-03-27 15:45:56 - INFO - o.s.b.a.e.web.EndpointLinksResolver - Exposing 18 endpoints beneath base path '/actuator  '
-2025-03-27 15:45:56 - INFO - o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
-2025-03-27 15:45:56 - INFO - c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
-2025-03-27 15:45:56 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 15:45:56 - INFO - c.netflix.discovery.DiscoveryClient - Disable delta property : false
-2025-03-27 15:45:56 - INFO - c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
-2025-03-27 15:45:56 - INFO - c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
-2025-03-27 15:45:56 - INFO - c.netflix.discovery.DiscoveryClient - Application is null : false
-2025-03-27 15:45:56 - INFO - c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
-2025-03-27 15:45:56 - INFO - c.netflix.discovery.DiscoveryClient - Application version is -1: true
-2025-03-27 15:45:56 - INFO - c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
-2025-03-27 15:45:56 - INFO - c.netflix.discovery.DiscoveryClient - The response status is 200
-2025-03-27 15:45:56 - INFO - c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
-2025-03-27 15:45:56 - INFO - c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-03-27 15:45:56 - INFO - c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1743070556288 with initial instances count: 2
-2025-03-27 15:45:56 - INFO - o.s.c.n.e.s.EurekaServiceRegistry - Registering application BILLING-SERVICE with eureka with status UP
-2025-03-27 15:45:56 - INFO - c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1743070556289, current=UP, previous=STARTING]
-2025-03-27 15:45:56 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900: registering service...
-2025-03-27 15:45:56 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9900 (http) with context path '/'
-2025-03-27 15:45:56 - INFO - o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9900
-2025-03-27 15:45:56 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - registration status: 204
-2025-03-27 15:45:56 - INFO - com.egr.ConfigClient1Application - Started ConfigClient1Application in 1.474 seconds (process running for 1086.722)
-2025-03-27 15:45:56 - INFO - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation delta:
-
-
-==========================
-CONDITION EVALUATION DELTA
-==========================
-
-
-Positive matches:
------------------
-
-   CachesEndpointAutoConfiguration#cachesEndpointWebExtension matched:
-      - @ConditionalOnBean (types: org.springframework.boot.actuate.cache.CachesEndpoint; SearchStrategy: all) found bean 'cachesEndpoint'; @ConditionalOnMissingBean (types: org.springframework.boot.actuate.cache.CachesEndpointWebExtension; SearchStrategy: all) did not find any beans (OnBeanCondition)
-      - @ConditionalOnAvailableEndpoint marked as exposed by a 'management.endpoints.web.exposure' property (OnAvailableEndpointCondition)
-
-   ConfigurationPropertiesReportEndpointAutoConfiguration#configurationPropertiesReportEndpointWebExtension matched:
-      - @ConditionalOnBean (types: org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpoint; SearchStrategy: all) found bean 'configurationPropertiesReportEndpoint'; @ConditionalOnMissingBean (types: org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointWebExtension; SearchStrategy: all) did not find any beans (OnBeanCondition)
-      - @ConditionalOnAvailableEndpoint marked as exposed by a 'management.endpoints.web.exposure' property (OnAvailableEndpointCondition)
-
-   EnvironmentEndpointAutoConfiguration#environmentEndpointWebExtension matched:
-      - @ConditionalOnBean (types: org.springframework.boot.actuate.env.EnvironmentEndpoint; SearchStrategy: all) found bean 'environmentEndpoint'; @ConditionalOnMissingBean (types: org.springframework.boot.actuate.env.EnvironmentEndpointWebExtension; SearchStrategy: all) did not find any beans (OnBeanCondition)
-      - @ConditionalOnAvailableEndpoint marked as exposed by a 'management.endpoints.web.exposure' property (OnAvailableEndpointCondition)
-
-   SbomEndpointAutoConfiguration#sbomEndpointWebExtension matched:
-      - @ConditionalOnBean (types: org.springframework.boot.actuate.sbom.SbomEndpoint; SearchStrategy: all) found bean 'sbomEndpoint'; @ConditionalOnMissingBean (types: org.springframework.boot.actuate.sbom.SbomEndpointWebExtension; SearchStrategy: all) did not find any beans (OnBeanCondition)
-      - @ConditionalOnAvailableEndpoint marked as exposed by a 'management.endpoints.web.exposure' property (OnAvailableEndpointCondition)
-
-   SpringBootAdminClientAutoConfiguration matched:
-      - @ConditionalOnWebApplication (required) found 'session' scope (OnWebApplicationCondition)
-      - matched (SpringBootAdminClientEnabledCondition)
-
-   SpringBootAdminClientAutoConfiguration#registrationListener matched:
-      - @ConditionalOnMissingBean (types: de.codecentric.boot.admin.client.registration.RegistrationApplicationListener; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   SpringBootAdminClientAutoConfiguration#registrator matched:
-      - @ConditionalOnMissingBean (types: de.codecentric.boot.admin.client.registration.ApplicationRegistrator; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   SpringBootAdminClientAutoConfiguration#startupDateMetadataContributor matched:
-      - @ConditionalOnMissingBean (types: de.codecentric.boot.admin.client.registration.metadata.StartupDateMetadataContributor; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   SpringBootAdminClientAutoConfiguration.BlockingRegistrationClientConfig matched:
-      - @ConditionalOnBean (types: org.springframework.boot.web.client.RestTemplateBuilder; SearchStrategy: all) found bean 'restTemplateBuilder' (OnBeanCondition)
-
-   SpringBootAdminClientAutoConfiguration.RestClientRegistrationClientConfig matched:
-      - @ConditionalOnBean (types: org.springframework.web.client.RestClient$Builder; SearchStrategy: all) found bean 'restClientBuilder' (OnBeanCondition)
-
-   SpringBootAdminClientAutoConfiguration.RestClientRegistrationClientConfig#registrationClient matched:
-      - @ConditionalOnMissingBean (types: de.codecentric.boot.admin.client.registration.RegistrationClient; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   SpringBootAdminClientAutoConfiguration.ServletConfiguration matched:
-      - found 'session' scope (OnWebApplicationCondition)
-
-   SpringBootAdminClientAutoConfiguration.ServletConfiguration#applicationFactory matched:
-      - @ConditionalOnMissingBean (types: de.codecentric.boot.admin.client.registration.ApplicationFactory; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   SpringNativeClientAutoConfiguration matched:
-      - @ConditionalOnWebApplication (required) found 'session' scope (OnWebApplicationCondition)
-      - matched (SpringBootAdminClientEnabledCondition)
-
-
-Negative matches:
------------------
-
-   SpringBootAdminClientAutoConfiguration.BlockingRegistrationClientConfig#registrationClient:
-      Did not match:
-         - @ConditionalOnMissingBean (types: de.codecentric.boot.admin.client.registration.RegistrationClient; SearchStrategy: all) found beans of type 'de.codecentric.boot.admin.client.registration.RegistrationClient' registrationClient (OnBeanCondition)
-
-   SpringBootAdminClientAutoConfiguration.ReactiveConfiguration:
-      Did not match:
-         - did not find reactive web application classes (OnWebApplicationCondition)
-
-   SpringBootAdminClientAutoConfiguration.ReactiveRegistrationClientConfig:
-      Did not match:
-         - @ConditionalOnBean did not find required type 'org.springframework.web.reactive.function.client.WebClient$Builder' (OnBeanCondition)
-         - @ConditionalOnBean (types: org.springframework.web.reactive.function.client.WebClient$Builder; SearchStrategy: all) did not find any beans of type org.springframework.web.reactive.function.client.WebClient$Builder (OnBeanCondition)
-
-
-Exclusions:
------------
-
-    None
-
-
-Unconditional classes:
-----------------------
-
-    None
-
-
-
-2025-03-27 15:45:56 - WARN - d.c.b.a.c.r.ApplicationRegistrator - Failed to register application as Application(name=Billing-Service, managementUrl=http://DESKTOP-VKRMBR2:9900/actuator%20%20, healthUrl=http://DESKTOP-VKRMBR2:9900/actuator%20%20/health, serviceUrl=http://DESKTOP-VKRMBR2:9900/) at spring-boot-admin ([http://localhost:8081/instances]): I/O error on POST request for "http://localhost:8081/instances": Connect to http://localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information. Further attempts are logged on DEBUG level
-org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8081/instances": Connect to http://localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
-	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.createResourceAccessException(DefaultRestClient.java:692) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:577) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchange(DefaultRestClient.java:535) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.client.RestClient$RequestHeadersSpec.exchange(RestClient.java:677) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.executeAndExtract(DefaultRestClient.java:809) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.body(DefaultRestClient.java:753) ~[spring-web-6.2.3.jar:6.2.3]
-	at de.codecentric.boot.admin.client.registration.RestClientRegistrationClient.register(RestClientRegistrationClient.java:45) ~[spring-boot-admin-client-3.4.5.jar:3.4.5]
-	at de.codecentric.boot.admin.client.registration.DefaultApplicationRegistrator.register(DefaultApplicationRegistrator.java:80) ~[spring-boot-admin-client-3.4.5.jar:3.4.5]
-	at de.codecentric.boot.admin.client.registration.DefaultApplicationRegistrator.register(DefaultApplicationRegistrator.java:61) ~[spring-boot-admin-client-3.4.5.jar:3.4.5]
-	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.3.jar:6.2.3]
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
-	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
-	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
-Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602) ~[na:na]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
-	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
-	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:216) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:490) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:150) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:174) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:571) ~[spring-web-6.2.3.jar:6.2.3]
-	... 14 common frames omitted
-2025-03-27 15:46:10 - INFO - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2025-03-27 15:46:10 - INFO - o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application BILLING-SERVICE with eureka with status DOWN
-2025-03-27 15:46:10 - INFO - c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1743070570728, current=DOWN, previous=UP]
-2025-03-27 15:46:10 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900: registering service...
-2025-03-27 15:46:10 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-27 15:46:10 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - registration status: 204
-2025-03-27 15:46:10 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-03-27 15:46:10 - INFO - c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
-2025-03-27 15:46:13 - INFO - c.netflix.discovery.DiscoveryClient - Unregistering ...
-2025-03-27 15:46:13 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - deregister  status: 200
-2025-03-27 15:46:13 - INFO - c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
-2025-03-27 15:46:14 - INFO - com.egr.ConfigClient1Application - Starting ConfigClient1Application using Java 17.0.12 with PID 6968 (C:\Users\Administrator\Godarshan\Microservices\Billing_service\target\classes started by Administrator in C:\Users\Administrator\Godarshan\Microservices\Billing_service)
-2025-03-27 15:46:14 - INFO - com.egr.ConfigClient1Application - No active profile set, falling back to 1 default profile: "default"
-2025-03-27 15:46:14 - INFO - o.s.cloud.context.scope.GenericScope - BeanFactory id=ae1f2003-83c6-3009-b6da-fc96e3d877d0
-2025-03-27 15:46:14 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9900 (http)
-2025-03-27 15:46:14 - INFO - o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
-2025-03-27 15:46:14 - INFO - o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
-2025-03-27 15:46:14 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-03-27 15:46:14 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-27 15:46:14 - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-03-27 15:46:14 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 409 ms
-2025-03-27 15:46:14 - WARN - o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
-2025-03-27 15:46:15 - INFO - o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
-2025-03-27 15:46:15 - WARN - o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-03-27 15:46:15 - INFO - o.s.b.a.e.web.EndpointLinksResolver - Exposing 18 endpoints beneath base path '/actuator  '
-2025-03-27 15:46:15 - INFO - o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
-2025-03-27 15:46:15 - INFO - c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
-2025-03-27 15:46:15 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 15:46:15 - INFO - c.netflix.discovery.DiscoveryClient - Disable delta property : false
-2025-03-27 15:46:15 - INFO - c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
-2025-03-27 15:46:15 - INFO - c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
-2025-03-27 15:46:15 - INFO - c.netflix.discovery.DiscoveryClient - Application is null : false
-2025-03-27 15:46:15 - INFO - c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
-2025-03-27 15:46:15 - INFO - c.netflix.discovery.DiscoveryClient - Application version is -1: true
-2025-03-27 15:46:15 - INFO - c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
-2025-03-27 15:46:15 - INFO - c.netflix.discovery.DiscoveryClient - The response status is 200
-2025-03-27 15:46:15 - INFO - c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
-2025-03-27 15:46:15 - INFO - c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-03-27 15:46:15 - INFO - c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1743070575125 with initial instances count: 2
-2025-03-27 15:46:15 - INFO - o.s.c.n.e.s.EurekaServiceRegistry - Registering application BILLING-SERVICE with eureka with status UP
-2025-03-27 15:46:15 - INFO - c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1743070575126, current=UP, previous=STARTING]
-2025-03-27 15:46:15 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900: registering service...
-2025-03-27 15:46:15 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9900 (http) with context path '/'
-2025-03-27 15:46:15 - INFO - o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9900
-2025-03-27 15:46:15 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - registration status: 204
-2025-03-27 15:46:15 - INFO - com.egr.ConfigClient1Application - Started ConfigClient1Application in 1.19 seconds (process running for 1105.532)
-2025-03-27 15:46:15 - INFO - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-2025-03-27 15:46:15 - WARN - d.c.b.a.c.r.ApplicationRegistrator - Failed to register application as Application(name=Billing-Service, managementUrl=http://DESKTOP-VKRMBR2:9900/actuator%20%20, healthUrl=http://DESKTOP-VKRMBR2:9900/actuator%20%20/health, serviceUrl=http://DESKTOP-VKRMBR2:9900/) at spring-boot-admin ([http://localhost:8081/instances]): I/O error on POST request for "http://localhost:8081/instances": Connect to http://localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information. Further attempts are logged on DEBUG level
-org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8081/instances": Connect to http://localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
-	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.createResourceAccessException(DefaultRestClient.java:692) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:577) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchange(DefaultRestClient.java:535) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.client.RestClient$RequestHeadersSpec.exchange(RestClient.java:677) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.executeAndExtract(DefaultRestClient.java:809) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.body(DefaultRestClient.java:753) ~[spring-web-6.2.3.jar:6.2.3]
-	at de.codecentric.boot.admin.client.registration.RestClientRegistrationClient.register(RestClientRegistrationClient.java:45) ~[spring-boot-admin-client-3.4.5.jar:3.4.5]
-	at de.codecentric.boot.admin.client.registration.DefaultApplicationRegistrator.register(DefaultApplicationRegistrator.java:80) ~[spring-boot-admin-client-3.4.5.jar:3.4.5]
-	at de.codecentric.boot.admin.client.registration.DefaultApplicationRegistrator.register(DefaultApplicationRegistrator.java:61) ~[spring-boot-admin-client-3.4.5.jar:3.4.5]
-	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.3.jar:6.2.3]
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
-	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
-	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
-Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8081 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547) ~[na:na]
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602) ~[na:na]
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
-	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
-	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:216) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:490) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:150) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:174) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183) ~[httpclient5-5.4.2.jar:5.4.2]
-	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:571) ~[spring-web-6.2.3.jar:6.2.3]
-	... 14 common frames omitted
-2025-03-27 15:46:30 - INFO - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2025-03-27 15:46:30 - INFO - o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application BILLING-SERVICE with eureka with status DOWN
-2025-03-27 15:46:30 - INFO - c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1743070590614, current=DOWN, previous=UP]
-2025-03-27 15:46:30 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900: registering service...
-2025-03-27 15:46:30 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-27 15:46:30 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - registration status: 204
-2025-03-27 15:46:30 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-03-27 15:46:30 - INFO - c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
-2025-03-27 15:46:33 - INFO - c.netflix.discovery.DiscoveryClient - Unregistering ...
-2025-03-27 15:46:33 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - deregister  status: 200
-2025-03-27 15:46:33 - INFO - c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
-2025-03-27 15:46:34 - INFO - com.egr.ConfigClient1Application - Starting ConfigClient1Application using Java 17.0.12 with PID 6968 (C:\Users\Administrator\Godarshan\Microservices\Billing_service\target\classes started by Administrator in C:\Users\Administrator\Godarshan\Microservices\Billing_service)
-2025-03-27 15:46:34 - INFO - com.egr.ConfigClient1Application - No active profile set, falling back to 1 default profile: "default"
-2025-03-27 15:46:34 - INFO - o.s.cloud.context.scope.GenericScope - BeanFactory id=ae1f2003-83c6-3009-b6da-fc96e3d877d0
-2025-03-27 15:46:34 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9900 (http)
-2025-03-27 15:46:34 - INFO - o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
-2025-03-27 15:46:34 - INFO - o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
-2025-03-27 15:46:34 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-03-27 15:46:34 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-27 15:46:34 - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-03-27 15:46:34 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 485 ms
-2025-03-27 15:46:34 - WARN - o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
-2025-03-27 15:46:35 - INFO - o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
-2025-03-27 15:46:35 - WARN - o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-03-27 15:46:35 - INFO - o.s.b.a.e.web.EndpointLinksResolver - Exposing 18 endpoints beneath base path '/actuator  '
-2025-03-27 15:46:35 - INFO - o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
-2025-03-27 15:46:35 - INFO - c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
-2025-03-27 15:46:35 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 15:46:35 - INFO - c.netflix.discovery.DiscoveryClient - Disable delta property : false
-2025-03-27 15:46:35 - INFO - c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
-2025-03-27 15:46:35 - INFO - c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
-2025-03-27 15:46:35 - INFO - c.netflix.discovery.DiscoveryClient - Application is null : false
-2025-03-27 15:46:35 - INFO - c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
-2025-03-27 15:46:35 - INFO - c.netflix.discovery.DiscoveryClient - Application version is -1: true
-2025-03-27 15:46:35 - INFO - c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
-2025-03-27 15:46:35 - INFO - c.netflix.discovery.DiscoveryClient - The response status is 200
-2025-03-27 15:46:35 - INFO - c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
-2025-03-27 15:46:35 - INFO - c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-03-27 15:46:35 - INFO - c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1743070595151 with initial instances count: 2
-2025-03-27 15:46:35 - INFO - o.s.c.n.e.s.EurekaServiceRegistry - Registering application BILLING-SERVICE with eureka with status UP
-2025-03-27 15:46:35 - INFO - c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1743070595151, current=UP, previous=STARTING]
-2025-03-27 15:46:35 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900: registering service...
-2025-03-27 15:46:35 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9900 (http) with context path '/'
-2025-03-27 15:46:35 - INFO - o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9900
-2025-03-27 15:46:35 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - registration status: 204
-2025-03-27 15:46:35 - INFO - com.egr.ConfigClient1Application - Started ConfigClient1Application in 1.338 seconds (process running for 1125.566)
-2025-03-27 15:46:35 - INFO - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-2025-03-27 15:46:35 - INFO - d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as f13988de62c0
-2025-03-27 15:46:35 - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-03-27 15:46:35 - INFO - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2025-03-27 15:46:35 - INFO - o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-2025-03-27 15:47:01 - INFO - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2025-03-27 15:47:01 - INFO - o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application BILLING-SERVICE with eureka with status DOWN
-2025-03-27 15:47:01 - INFO - c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1743070621807, current=DOWN, previous=UP]
-2025-03-27 15:47:01 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900: registering service...
-2025-03-27 15:47:01 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-27 15:47:01 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - registration status: 204
-2025-03-27 15:47:02 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-03-27 15:47:02 - INFO - c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
-2025-03-27 15:47:05 - INFO - c.netflix.discovery.DiscoveryClient - Unregistering ...
-2025-03-27 15:47:05 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - deregister  status: 200
-2025-03-27 15:47:05 - INFO - c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
-2025-03-27 15:47:05 - INFO - com.egr.ConfigClient1Application - Starting ConfigClient1Application using Java 17.0.12 with PID 6968 (C:\Users\Administrator\Godarshan\Microservices\Billing_service\target\classes started by Administrator in C:\Users\Administrator\Godarshan\Microservices\Billing_service)
-2025-03-27 15:47:05 - INFO - com.egr.ConfigClient1Application - No active profile set, falling back to 1 default profile: "default"
-2025-03-27 15:47:05 - INFO - o.s.cloud.context.scope.GenericScope - BeanFactory id=ae1f2003-83c6-3009-b6da-fc96e3d877d0
-2025-03-27 15:47:05 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9900 (http)
-2025-03-27 15:47:05 - INFO - o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
-2025-03-27 15:47:05 - INFO - o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
-2025-03-27 15:47:05 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-03-27 15:47:05 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-27 15:47:05 - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-03-27 15:47:05 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 612 ms
-2025-03-27 15:47:06 - WARN - o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
-2025-03-27 15:47:06 - INFO - o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
-2025-03-27 15:47:06 - WARN - o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-03-27 15:47:06 - INFO - o.s.b.a.e.web.EndpointLinksResolver - Exposing 18 endpoints beneath base path '/actuator  '
-2025-03-27 15:47:06 - INFO - o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
-2025-03-27 15:47:06 - INFO - c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
-2025-03-27 15:47:06 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 15:47:06 - INFO - c.netflix.discovery.DiscoveryClient - Disable delta property : false
-2025-03-27 15:47:06 - INFO - c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
-2025-03-27 15:47:06 - INFO - c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
-2025-03-27 15:47:06 - INFO - c.netflix.discovery.DiscoveryClient - Application is null : false
-2025-03-27 15:47:06 - INFO - c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
-2025-03-27 15:47:06 - INFO - c.netflix.discovery.DiscoveryClient - Application version is -1: true
-2025-03-27 15:47:06 - INFO - c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
-2025-03-27 15:47:06 - INFO - c.netflix.discovery.DiscoveryClient - The response status is 200
-2025-03-27 15:47:06 - INFO - c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
-2025-03-27 15:47:06 - INFO - c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-03-27 15:47:06 - INFO - c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1743070626554 with initial instances count: 2
-2025-03-27 15:47:06 - INFO - o.s.c.n.e.s.EurekaServiceRegistry - Registering application BILLING-SERVICE with eureka with status UP
-2025-03-27 15:47:06 - INFO - c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1743070626554, current=UP, previous=STARTING]
-2025-03-27 15:47:06 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900: registering service...
-2025-03-27 15:47:06 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9900 (http) with context path '/'
-2025-03-27 15:47:06 - INFO - o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9900
-2025-03-27 15:47:06 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - registration status: 204
-2025-03-27 15:47:06 - INFO - com.egr.ConfigClient1Application - Started ConfigClient1Application in 1.537 seconds (process running for 1156.986)
-2025-03-27 15:47:06 - INFO - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-2025-03-27 15:47:06 - INFO - d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as f13988de62c0
-2025-03-27 15:47:06 - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-03-27 15:47:06 - INFO - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2025-03-27 15:47:06 - INFO - o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-2025-03-27 15:47:13 - INFO - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2025-03-27 15:47:13 - INFO - o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application BILLING-SERVICE with eureka with status DOWN
-2025-03-27 15:47:13 - INFO - c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1743070633804, current=DOWN, previous=UP]
-2025-03-27 15:47:13 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900: registering service...
-2025-03-27 15:47:13 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-27 15:47:13 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - registration status: 204
-2025-03-27 15:47:14 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-03-27 15:47:14 - INFO - c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
-2025-03-27 15:47:17 - INFO - c.netflix.discovery.DiscoveryClient - Unregistering ...
-2025-03-27 15:47:17 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - deregister  status: 200
-2025-03-27 15:47:17 - INFO - c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
-2025-03-27 15:47:17 - INFO - com.egr.ConfigClient1Application - Starting ConfigClient1Application using Java 17.0.12 with PID 6968 (C:\Users\Administrator\Godarshan\Microservices\Billing_service\target\classes started by Administrator in C:\Users\Administrator\Godarshan\Microservices\Billing_service)
-2025-03-27 15:47:17 - INFO - com.egr.ConfigClient1Application - No active profile set, falling back to 1 default profile: "default"
-2025-03-27 15:47:17 - INFO - o.s.cloud.context.scope.GenericScope - BeanFactory id=ae1f2003-83c6-3009-b6da-fc96e3d877d0
-2025-03-27 15:47:17 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9900 (http)
-2025-03-27 15:47:17 - INFO - o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
-2025-03-27 15:47:17 - INFO - o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
-2025-03-27 15:47:17 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-03-27 15:47:17 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-27 15:47:17 - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-03-27 15:47:17 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 370 ms
-2025-03-27 15:47:17 - WARN - o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
-2025-03-27 15:47:18 - INFO - o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
-2025-03-27 15:47:18 - WARN - o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-03-27 15:47:18 - INFO - o.s.b.a.e.web.EndpointLinksResolver - Exposing 18 endpoints beneath base path '/actuator  '
-2025-03-27 15:47:18 - INFO - o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
-2025-03-27 15:47:18 - INFO - c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
-2025-03-27 15:47:18 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 15:47:18 - INFO - c.netflix.discovery.DiscoveryClient - Disable delta property : false
-2025-03-27 15:47:18 - INFO - c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
-2025-03-27 15:47:18 - INFO - c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
-2025-03-27 15:47:18 - INFO - c.netflix.discovery.DiscoveryClient - Application is null : false
-2025-03-27 15:47:18 - INFO - c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
-2025-03-27 15:47:18 - INFO - c.netflix.discovery.DiscoveryClient - Application version is -1: true
-2025-03-27 15:47:18 - INFO - c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
-2025-03-27 15:47:18 - INFO - c.netflix.discovery.DiscoveryClient - The response status is 200
-2025-03-27 15:47:18 - INFO - c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
-2025-03-27 15:47:18 - INFO - c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-03-27 15:47:18 - INFO - c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1743070638145 with initial instances count: 2
-2025-03-27 15:47:18 - INFO - o.s.c.n.e.s.EurekaServiceRegistry - Registering application BILLING-SERVICE with eureka with status UP
-2025-03-27 15:47:18 - INFO - c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1743070638145, current=UP, previous=STARTING]
-2025-03-27 15:47:18 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900: registering service...
-2025-03-27 15:47:18 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9900 (http) with context path '/'
-2025-03-27 15:47:18 - INFO - o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9900
-2025-03-27 15:47:18 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - registration status: 204
-2025-03-27 15:47:18 - INFO - com.egr.ConfigClient1Application - Started ConfigClient1Application in 1.13 seconds (process running for 1168.553)
-2025-03-27 15:47:18 - INFO - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-2025-03-27 15:47:18 - INFO - d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as f13988de62c0
-2025-03-27 15:47:18 - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-03-27 15:47:18 - INFO - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2025-03-27 15:47:18 - INFO - o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-2025-03-27 15:48:10 - INFO - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2025-03-27 15:48:10 - INFO - o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application BILLING-SERVICE with eureka with status DOWN
-2025-03-27 15:48:10 - INFO - c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1743070690107, current=DOWN, previous=UP]
-2025-03-27 15:48:10 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900: registering service...
-2025-03-27 15:48:10 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-27 15:48:10 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - registration status: 204
-2025-03-27 15:48:10 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-03-27 15:48:10 - INFO - c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
-2025-03-27 15:48:13 - INFO - c.netflix.discovery.DiscoveryClient - Unregistering ...
-2025-03-27 15:48:13 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - deregister  status: 200
-2025-03-27 15:48:13 - INFO - c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
-2025-03-27 15:48:13 - INFO - com.egr.ConfigClient1Application - Starting ConfigClient1Application using Java 17.0.12 with PID 6968 (C:\Users\Administrator\Godarshan\Microservices\Billing_service\target\classes started by Administrator in C:\Users\Administrator\Godarshan\Microservices\Billing_service)
-2025-03-27 15:48:13 - INFO - com.egr.ConfigClient1Application - No active profile set, falling back to 1 default profile: "default"
-2025-03-27 15:48:13 - INFO - o.s.cloud.context.scope.GenericScope - BeanFactory id=ae1f2003-83c6-3009-b6da-fc96e3d877d0
-2025-03-27 15:48:13 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9900 (http)
-2025-03-27 15:48:13 - INFO - o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
-2025-03-27 15:48:13 - INFO - o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
-2025-03-27 15:48:13 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-03-27 15:48:13 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-27 15:48:14 - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-03-27 15:48:14 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 371 ms
-2025-03-27 15:48:14 - WARN - o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
-2025-03-27 15:48:14 - INFO - o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
-2025-03-27 15:48:14 - WARN - o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-03-27 15:48:14 - INFO - o.s.b.a.e.web.EndpointLinksResolver - Exposing 18 endpoints beneath base path '/actuator  '
-2025-03-27 15:48:14 - INFO - o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
-2025-03-27 15:48:14 - INFO - c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
-2025-03-27 15:48:14 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 15:48:14 - INFO - c.netflix.discovery.DiscoveryClient - Disable delta property : false
-2025-03-27 15:48:14 - INFO - c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
-2025-03-27 15:48:14 - INFO - c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
-2025-03-27 15:48:14 - INFO - c.netflix.discovery.DiscoveryClient - Application is null : false
-2025-03-27 15:48:14 - INFO - c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
-2025-03-27 15:48:14 - INFO - c.netflix.discovery.DiscoveryClient - Application version is -1: true
-2025-03-27 15:48:14 - INFO - c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
-2025-03-27 15:48:14 - INFO - c.netflix.discovery.DiscoveryClient - The response status is 200
-2025-03-27 15:48:14 - INFO - c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
-2025-03-27 15:48:14 - INFO - c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-03-27 15:48:14 - INFO - c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1743070694518 with initial instances count: 2
-2025-03-27 15:48:14 - INFO - o.s.c.n.e.s.EurekaServiceRegistry - Registering application BILLING-SERVICE with eureka with status UP
-2025-03-27 15:48:14 - INFO - c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1743070694519, current=UP, previous=STARTING]
-2025-03-27 15:48:14 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900: registering service...
-2025-03-27 15:48:14 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9900 (http) with context path '/'
-2025-03-27 15:48:14 - INFO - o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9900
-2025-03-27 15:48:14 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - registration status: 204
-2025-03-27 15:48:14 - INFO - com.egr.ConfigClient1Application - Started ConfigClient1Application in 1.163 seconds (process running for 1224.933)
-2025-03-27 15:48:14 - INFO - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-2025-03-27 15:48:14 - INFO - d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as f13988de62c0
-2025-03-27 15:48:14 - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-03-27 15:48:14 - INFO - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2025-03-27 15:48:14 - INFO - o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
-2025-03-27 15:48:32 - INFO - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2025-03-27 15:48:32 - INFO - o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application BILLING-SERVICE with eureka with status DOWN
-2025-03-27 15:48:32 - INFO - c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1743070712074, current=DOWN, previous=UP]
-2025-03-27 15:48:32 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900: registering service...
-2025-03-27 15:48:32 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-27 15:48:32 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - registration status: 204
-2025-03-27 15:48:32 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-03-27 15:48:32 - INFO - c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
-2025-03-27 15:48:35 - INFO - c.netflix.discovery.DiscoveryClient - Unregistering ...
-2025-03-27 15:48:35 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - deregister  status: 200
-2025-03-27 15:48:35 - INFO - c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
-2025-03-27 15:48:35 - INFO - com.egr.ConfigClient1Application - Starting ConfigClient1Application using Java 17.0.12 with PID 6968 (C:\Users\Administrator\Godarshan\Microservices\Billing_service\target\classes started by Administrator in C:\Users\Administrator\Godarshan\Microservices\Billing_service)
-2025-03-27 15:48:35 - INFO - com.egr.ConfigClient1Application - No active profile set, falling back to 1 default profile: "default"
-2025-03-27 15:48:35 - INFO - o.s.cloud.context.scope.GenericScope - BeanFactory id=ae1f2003-83c6-3009-b6da-fc96e3d877d0
-2025-03-27 15:48:36 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9900 (http)
-2025-03-27 15:48:36 - INFO - o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
-2025-03-27 15:48:36 - INFO - o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
-2025-03-27 15:48:36 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-03-27 15:48:36 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-27 15:48:36 - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-03-27 15:48:36 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 384 ms
-2025-03-27 15:48:36 - WARN - o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
-2025-03-27 15:48:36 - INFO - o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
-2025-03-27 15:48:36 - WARN - o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-03-27 15:48:36 - INFO - o.s.b.a.e.web.EndpointLinksResolver - Exposing 18 endpoints beneath base path '/actuator  '
-2025-03-27 15:48:36 - INFO - o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
-2025-03-27 15:48:36 - INFO - c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
-2025-03-27 15:48:36 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 15:48:36 - INFO - c.netflix.discovery.DiscoveryClient - Disable delta property : false
-2025-03-27 15:48:36 - INFO - c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
-2025-03-27 15:48:36 - INFO - c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
-2025-03-27 15:48:36 - INFO - c.netflix.discovery.DiscoveryClient - Application is null : false
-2025-03-27 15:48:36 - INFO - c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
-2025-03-27 15:48:36 - INFO - c.netflix.discovery.DiscoveryClient - Application version is -1: true
-2025-03-27 15:48:36 - INFO - c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
-2025-03-27 15:48:36 - INFO - c.netflix.discovery.DiscoveryClient - The response status is 200
-2025-03-27 15:48:36 - INFO - c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
-2025-03-27 15:48:36 - INFO - c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-03-27 15:48:36 - INFO - c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1743070716539 with initial instances count: 2
-2025-03-27 15:48:36 - INFO - o.s.c.n.e.s.EurekaServiceRegistry - Registering application BILLING-SERVICE with eureka with status UP
-2025-03-27 15:48:36 - INFO - c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1743070716539, current=UP, previous=STARTING]
-2025-03-27 15:48:36 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900: registering service...
-2025-03-27 15:48:36 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9900 (http) with context path '/'
-2025-03-27 15:48:36 - INFO - o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9900
-2025-03-27 15:48:36 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - registration status: 204
-2025-03-27 15:48:36 - INFO - com.egr.ConfigClient1Application - Started ConfigClient1Application in 1.178 seconds (process running for 1246.956)
-2025-03-27 15:48:36 - INFO - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-2025-03-27 15:48:36 - INFO - d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as f13988de62c0
-2025-03-27 15:48:36 - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-03-27 15:48:36 - INFO - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2025-03-27 15:48:36 - INFO - o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-2025-03-27 15:53:36 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 15:58:36 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 16:03:36 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 16:08:36 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 16:13:36 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 16:17:33 - INFO - o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
-2025-03-27 16:17:33 - INFO - o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application BILLING-SERVICE with eureka with status DOWN
-2025-03-27 16:17:33 - INFO - c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1743072453072, current=DOWN, previous=UP]
-2025-03-27 16:17:33 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900: registering service...
-2025-03-27 16:17:33 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-27 16:17:33 - INFO - c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/BILLING-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/BILLING-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
-	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:925)
-	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:905)
-	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:840)
-	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:701)
-	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:87)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
-	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
-	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
-	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:828)
-	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:125)
-	at com.netflix.discovery.InstanceInfoReplicator$2.run(InstanceInfoReplicator.java:105)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547)
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
-	at java.base/java.net.Socket.connect(Socket.java:633)
-	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:216)
-	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:490)
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
-	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:150)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:174)
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
-	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
-	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
-	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
-	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:117)
-	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$3(RestTemplateTransportClientFactory.java:141)
-	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
-	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
-	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
-	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
-	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:899)
-	... 22 more
-
-2025-03-27 16:17:33 - WARN - c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/BILLING-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
-2025-03-27 16:17:33 - WARN - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - registration failed Cannot execute request on any known server
-com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.4.jar:2.0.4]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.4.jar:2.0.4]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-2.0.4.jar:2.0.4]
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76) ~[eureka-client-2.0.4.jar:2.0.4]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.4.jar:2.0.4]
-	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:828) ~[eureka-client-2.0.4.jar:2.0.4]
-	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:125) ~[eureka-client-2.0.4.jar:2.0.4]
-	at com.netflix.discovery.InstanceInfoReplicator$2.run(InstanceInfoReplicator.java:105) ~[eureka-client-2.0.4.jar:2.0.4]
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
-	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
-2025-03-27 16:17:33 - WARN - c.n.discovery.InstanceInfoReplicator - There was a problem with the instance info replicator
-com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.4.jar:2.0.4]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.4.jar:2.0.4]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-2.0.4.jar:2.0.4]
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76) ~[eureka-client-2.0.4.jar:2.0.4]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.4.jar:2.0.4]
-	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:828) ~[eureka-client-2.0.4.jar:2.0.4]
-	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:125) ~[eureka-client-2.0.4.jar:2.0.4]
-	at com.netflix.discovery.InstanceInfoReplicator$2.run(InstanceInfoReplicator.java:105) ~[eureka-client-2.0.4.jar:2.0.4]
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
-	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
-2025-03-27 16:17:33 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-03-27 16:17:33 - INFO - c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
-2025-03-27 16:17:36 - INFO - c.netflix.discovery.DiscoveryClient - Unregistering ...
-2025-03-27 16:17:36 - INFO - c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
-	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:925)
-	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:905)
-	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:840)
-	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:701)
-	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:100)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
-	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
-	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
-	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:919)
-	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:900)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
-	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:415)
-	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:239)
-	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:202)
-	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:195)
-	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:389)
-	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
-	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:211)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:735)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:692)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1401)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:651)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1394)
-	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1219)
-	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1180)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:179)
-	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1126)
-	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:72)
-	at jdk.internal.reflect.GeneratedMethodAccessor55.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:262)
-	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
-	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
-	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117)
-	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54)
-	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237)
-	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
-	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
-	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:814)
-	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
-	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472)
-	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
-	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
-	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
-	at java.base/jdk.internal.reflect.GeneratedMethodAccessor47.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
-	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
-	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712)
-	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547)
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
-	at java.base/java.net.Socket.connect(Socket.java:633)
-	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:216)
-	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:490)
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
-	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
-	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:150)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
-	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:174)
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
-	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
-	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
-	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
-	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
-	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
-	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:117)
-	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$3(RestTemplateTransportClientFactory.java:141)
-	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
-	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
-	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
-	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
-	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:899)
-	... 75 more
-
-2025-03-27 16:17:36 - WARN - c.n.d.s.t.d.RetryableEurekaHttpClient - Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
-2025-03-27 16:17:36 - ERROR - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - de-registration failedCannot execute request on any known server
-com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.4.jar:2.0.4]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-2.0.4.jar:2.0.4]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-2.0.4.jar:2.0.4]
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76) ~[eureka-client-2.0.4.jar:2.0.4]
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-2.0.4.jar:2.0.4]
-	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:919) ~[eureka-client-2.0.4.jar:2.0.4]
-	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:900) ~[eureka-client-2.0.4.jar:2.0.4]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457) ~[spring-beans-6.2.3.jar:6.2.3]
-	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:415) ~[spring-beans-6.2.3.jar:6.2.3]
-	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:239) ~[spring-beans-6.2.3.jar:6.2.3]
-	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:202) ~[spring-beans-6.2.3.jar:6.2.3]
-	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:195) ~[spring-beans-6.2.3.jar:6.2.3]
-	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:389) ~[spring-cloud-context-4.2.0.jar:4.2.0]
-	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136) ~[spring-cloud-context-4.2.0.jar:4.2.0]
-	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:211) ~[spring-beans-6.2.3.jar:6.2.3]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:735) ~[spring-beans-6.2.3.jar:6.2.3]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:692) ~[spring-beans-6.2.3.jar:6.2.3]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1401) ~[spring-beans-6.2.3.jar:6.2.3]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:651) ~[spring-beans-6.2.3.jar:6.2.3]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1394) ~[spring-beans-6.2.3.jar:6.2.3]
-	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1219) ~[spring-context-6.2.3.jar:6.2.3]
-	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1180) ~[spring-context-6.2.3.jar:6.2.3]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:179) ~[spring-boot-3.4.3.jar:3.4.3]
-	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1126) ~[spring-context-6.2.3.jar:6.2.3]
-	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160) ~[spring-boot-3.4.3.jar:3.4.3]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:72) ~[na:na]
-	at jdk.internal.reflect.GeneratedMethodAccessor55.invoke(Unknown Source) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:262) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252) ~[na:na]
-	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:814) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802) ~[na:na]
-	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472) ~[na:na]
-	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310) ~[na:na]
-	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405) ~[na:na]
-	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829) ~[na:na]
-	at java.base/jdk.internal.reflect.GeneratedMethodAccessor47.invoke(Unknown Source) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360) ~[na:na]
-	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:na]
-	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:na]
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712) ~[na:na]
-	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:na]
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587) ~[na:na]
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828) ~[na:na]
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705) ~[na:na]
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399) ~[na:na]
-	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704) ~[na:na]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
-	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
-2025-03-27 16:17:36 - INFO - c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
-2025-03-27 18:33:35 - INFO - com.egr.ConfigClient1Application - Starting ConfigClient1Application using Java 17.0.12 with PID 24728 (C:\Users\Administrator\Godarshan\Microservices\Billing_service\target\classes started by Administrator in C:\Users\Administrator\Godarshan\Microservices\Billing_service)
-2025-03-27 18:33:35 - INFO - com.egr.ConfigClient1Application - No active profile set, falling back to 1 default profile: "default"
-2025-03-27 18:33:35 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-03-27 18:33:35 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-03-27 18:33:37 - INFO - o.s.cloud.context.scope.GenericScope - BeanFactory id=ae1f2003-83c6-3009-b6da-fc96e3d877d0
-2025-03-27 18:33:37 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9900 (http)
-2025-03-27 18:33:37 - INFO - o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
-2025-03-27 18:33:37 - INFO - o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
-2025-03-27 18:33:37 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-03-27 18:33:37 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
-2025-03-27 18:33:37 - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-03-27 18:33:37 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2299 ms
-2025-03-27 18:33:39 - WARN - o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
-2025-03-27 18:33:40 - INFO - o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
-2025-03-27 18:33:40 - WARN - o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-03-27 18:33:40 - INFO - o.s.b.a.e.web.EndpointLinksResolver - Exposing 18 endpoints beneath base path '/actuator  '
-2025-03-27 18:33:40 - INFO - o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
-2025-03-27 18:33:40 - INFO - c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
-2025-03-27 18:33:40 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 18:33:40 - INFO - c.netflix.discovery.DiscoveryClient - Disable delta property : false
-2025-03-27 18:33:40 - INFO - c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
-2025-03-27 18:33:40 - INFO - c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
-2025-03-27 18:33:40 - INFO - c.netflix.discovery.DiscoveryClient - Application is null : false
-2025-03-27 18:33:40 - INFO - c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
-2025-03-27 18:33:40 - INFO - c.netflix.discovery.DiscoveryClient - Application version is -1: true
-2025-03-27 18:33:40 - INFO - c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
-2025-03-27 18:33:40 - INFO - c.netflix.discovery.DiscoveryClient - The response status is 200
-2025-03-27 18:33:40 - INFO - c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
-2025-03-27 18:33:40 - INFO - c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-03-27 18:33:40 - INFO - c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1743080620833 with initial instances count: 0
-2025-03-27 18:33:40 - INFO - o.s.c.n.e.s.EurekaServiceRegistry - Registering application BILLING-SERVICE with eureka with status UP
-2025-03-27 18:33:40 - INFO - c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1743080620839, current=UP, previous=STARTING]
-2025-03-27 18:33:40 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900: registering service...
-2025-03-27 18:33:40 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9900 (http) with context path '/'
-2025-03-27 18:33:40 - INFO - o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9900
-2025-03-27 18:33:41 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - registration status: 204
-2025-03-27 18:33:41 - INFO - com.egr.ConfigClient1Application - Started ConfigClient1Application in 6.582 seconds (process running for 7.798)
-2025-03-27 18:33:41 - WARN - d.c.b.a.c.r.ApplicationRegistrator - Failed to register application as Application(name=Billing-Service, managementUrl=http://DESKTOP-VKRMBR2:9900/actuator%20%20, healthUrl=http://DESKTOP-VKRMBR2:9900/actuator%20%20/health, serviceUrl=http://DESKTOP-VKRMBR2:9900/) at spring-boot-admin ([http://localhost:9090/instances]): I/O error on POST request for "http://localhost:9090/instances": Connect to http://localhost:9090 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information. Further attempts are logged on DEBUG level
+2025-04-02 16:23:54 - INFO - com.egr.ConfigClient1Application - Starting ConfigClient1Application using Java 17.0.12 with PID 3592 (C:\Users\Administrator\Godarshan\Microservices\Billing_service\target\classes started by Administrator in C:\Users\Administrator\Godarshan\Microservices\Billing_service)
+2025-04-02 16:23:54 - INFO - com.egr.ConfigClient1Application - No active profile set, falling back to 1 default profile: "default"
+2025-04-02 16:23:54 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-02 16:23:54 - INFO - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-02 16:23:56 - INFO - o.s.cloud.context.scope.GenericScope - BeanFactory id=ae1f2003-83c6-3009-b6da-fc96e3d877d0
+2025-04-02 16:23:56 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9900 (http)
+2025-04-02 16:23:56 - INFO - o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-04-02 16:23:56 - INFO - o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-04-02 16:23:56 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-02 16:23:56 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-02 16:23:56 - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-02 16:23:56 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1470 ms
+2025-04-02 16:23:57 - WARN - o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-04-02 16:23:58 - INFO - o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-04-02 16:23:58 - WARN - o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-04-02 16:23:58 - INFO - o.s.b.a.e.web.EndpointLinksResolver - Exposing 18 endpoints beneath base path '/actuator  '
+2025-04-02 16:23:58 - INFO - o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-04-02 16:23:58 - INFO - c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-04-02 16:23:58 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 16:23:58 - INFO - c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-04-02 16:23:58 - INFO - c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-04-02 16:23:58 - INFO - c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-04-02 16:23:58 - INFO - c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-04-02 16:23:58 - INFO - c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-04-02 16:23:58 - INFO - c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-04-02 16:23:58 - INFO - c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-04-02 16:23:58 - INFO - c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-04-02 16:23:58 - INFO - c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-04-02 16:23:58 - INFO - c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-04-02 16:23:58 - INFO - c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1743591238628 with initial instances count: 0
+2025-04-02 16:23:58 - INFO - o.s.c.n.e.s.EurekaServiceRegistry - Registering application BILLING-SERVICE with eureka with status UP
+2025-04-02 16:23:58 - INFO - c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1743591238633, current=UP, previous=STARTING]
+2025-04-02 16:23:58 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900: registering service...
+2025-04-02 16:23:58 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9900 (http) with context path '/'
+2025-04-02 16:23:58 - INFO - o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9900
+2025-04-02 16:23:58 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - registration status: 204
+2025-04-02 16:23:58 - INFO - com.egr.ConfigClient1Application - Started ConfigClient1Application in 4.622 seconds (process running for 5.356)
+2025-04-02 16:23:58 - WARN - d.c.b.a.c.r.ApplicationRegistrator - Failed to register application as Application(name=Billing-Service, managementUrl=http://DESKTOP-VKRMBR2:9900/actuator%20%20, healthUrl=http://DESKTOP-VKRMBR2:9900/actuator%20%20/health, serviceUrl=http://DESKTOP-VKRMBR2:9900/) at spring-boot-admin ([http://localhost:9090/instances]): I/O error on POST request for "http://localhost:9090/instances": Connect to http://localhost:9090 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information. Further attempts are logged on DEBUG level
 org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9090/instances": Connect to http://localhost:9090 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
 	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.createResourceAccessException(DefaultRestClient.java:692)
 	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:577)
@@ -1049,39 +83,157 @@ Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http:
 	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
 	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:571)
 	... 14 common frames omitted
-2025-03-27 18:33:41 - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-03-27 18:33:41 - INFO - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2025-03-27 18:33:41 - INFO - o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
-2025-03-27 18:34:10 - INFO - c.netflix.discovery.DiscoveryClient - Disable delta property : false
-2025-03-27 18:34:10 - INFO - c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
-2025-03-27 18:34:10 - INFO - c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
-2025-03-27 18:34:10 - INFO - c.netflix.discovery.DiscoveryClient - Application is null : false
-2025-03-27 18:34:10 - INFO - c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
-2025-03-27 18:34:10 - INFO - c.netflix.discovery.DiscoveryClient - Application version is -1: false
-2025-03-27 18:34:10 - INFO - c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
-2025-03-27 18:34:10 - INFO - c.netflix.discovery.DiscoveryClient - The response status is 200
-2025-03-27 18:38:40 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 18:40:35 - INFO - c.e.c.BillingServuiveController - Getting billing details from Billing micro service
-2025-03-27 18:41:05 - INFO - c.e.c.BillingServuiveController - Getting billing details from Billing micro service
-2025-03-27 18:43:40 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 18:45:20 - INFO - c.e.c.BillingServuiveController - Getting billing details from Billing micro service
-2025-03-27 18:45:28 - INFO - c.e.c.BillingServuiveController - Getting billing details from Billing micro service
-2025-03-27 18:45:31 - INFO - c.e.c.BillingServuiveController - Getting billing details from Billing micro service
-2025-03-27 18:48:40 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 18:53:40 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 18:58:40 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 19:03:40 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 19:08:40 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 19:13:40 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 19:46:39 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-2025-03-27 19:47:52 - INFO - o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
-2025-03-27 19:47:52 - INFO - o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application BILLING-SERVICE with eureka with status DOWN
-2025-03-27 19:47:52 - INFO - c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1743085072332, current=DOWN, previous=UP]
-2025-03-27 19:47:52 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900: registering service...
-2025-03-27 19:47:52 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - registration status: 204
-2025-03-27 19:47:52 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-03-27 19:47:52 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-03-27 19:47:52 - INFO - c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
-2025-03-27 19:47:55 - INFO - c.netflix.discovery.DiscoveryClient - Unregistering ...
-2025-03-27 19:47:55 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - deregister  status: 200
-2025-03-27 19:47:55 - INFO - c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-04-02 16:23:59 - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-02 16:23:59 - INFO - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-04-02 16:23:59 - INFO - o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-04-02 16:24:28 - INFO - c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-04-02 16:24:28 - INFO - c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-04-02 16:24:28 - INFO - c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-04-02 16:24:28 - INFO - c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-04-02 16:24:28 - INFO - c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-04-02 16:24:28 - INFO - c.netflix.discovery.DiscoveryClient - Application version is -1: false
+2025-04-02 16:24:28 - INFO - c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-04-02 16:24:28 - INFO - c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-04-02 16:25:28 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - Re-registering apps/BILLING-SERVICE
+2025-04-02 16:25:28 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900: registering service...
+2025-04-02 16:25:28 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900: registering service...
+2025-04-02 16:25:28 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - registration status: 204
+2025-04-02 16:25:28 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - registration status: 204
+2025-04-02 16:25:58 - INFO - c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-04-02 16:25:58 - INFO - c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-04-02 16:25:58 - INFO - c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-04-02 16:25:58 - INFO - c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-04-02 16:25:58 - INFO - c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-04-02 16:25:58 - INFO - c.netflix.discovery.DiscoveryClient - Application version is -1: false
+2025-04-02 16:25:58 - INFO - c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-04-02 16:25:58 - INFO - c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-04-02 16:28:58 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 16:33:58 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 16:38:58 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 16:43:58 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 16:48:58 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 16:53:58 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 16:58:58 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 17:03:58 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 17:08:58 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 17:13:58 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 17:18:58 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 17:23:58 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 17:28:58 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 17:33:58 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 18:05:13 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 18:13:39 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 18:18:39 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 18:23:39 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 18:28:39 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 18:33:39 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 18:38:39 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 18:43:39 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 18:48:39 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 18:53:39 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 18:58:39 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 19:03:39 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 19:08:39 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 19:14:32 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 19:19:32 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 19:24:32 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 19:29:32 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 19:34:32 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 19:39:32 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 19:44:32 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 19:49:32 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 19:53:15 - INFO - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2025-04-02 19:53:15 - INFO - o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application BILLING-SERVICE with eureka with status DOWN
+2025-04-02 19:53:15 - INFO - c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1743603795253, current=DOWN, previous=UP]
+2025-04-02 19:53:15 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900: registering service...
+2025-04-02 19:53:15 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - registration status: 204
+2025-04-02 19:53:15 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-02 19:53:15 - INFO - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-02 19:53:15 - INFO - c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2025-04-02 19:53:18 - INFO - c.netflix.discovery.DiscoveryClient - Unregistering ...
+2025-04-02 19:53:18 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - deregister  status: 200
+2025-04-02 19:53:18 - INFO - c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2025-04-02 19:53:18 - INFO - com.egr.ConfigClient1Application - Starting ConfigClient1Application using Java 17.0.12 with PID 3592 (C:\Users\Administrator\Godarshan\Microservices\Billing_service\target\classes started by Administrator in C:\Users\Administrator\Godarshan\Microservices\Billing_service)
+2025-04-02 19:53:18 - INFO - com.egr.ConfigClient1Application - No active profile set, falling back to 1 default profile: "default"
+2025-04-02 19:53:19 - INFO - o.s.cloud.context.scope.GenericScope - BeanFactory id=ae1f2003-83c6-3009-b6da-fc96e3d877d0
+2025-04-02 19:53:20 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9900 (http)
+2025-04-02 19:53:20 - INFO - o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+2025-04-02 19:53:20 - INFO - o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-04-02 19:53:20 - INFO - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-02 19:53:20 - INFO - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-04-02 19:53:20 - INFO - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-02 19:53:20 - INFO - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1059 ms
+2025-04-02 19:53:20 - WARN - o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-04-02 19:53:20 - INFO - o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2025-04-02 19:53:20 - WARN - o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-04-02 19:53:20 - INFO - o.s.b.a.e.web.EndpointLinksResolver - Exposing 18 endpoints beneath base path '/actuator  '
+2025-04-02 19:53:20 - INFO - o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2025-04-02 19:53:20 - INFO - c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2025-04-02 19:53:20 - INFO - c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2025-04-02 19:53:20 - INFO - c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2025-04-02 19:53:20 - INFO - c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2025-04-02 19:53:20 - INFO - c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2025-04-02 19:53:20 - INFO - c.netflix.discovery.DiscoveryClient - Application is null : false
+2025-04-02 19:53:20 - INFO - c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2025-04-02 19:53:20 - INFO - c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2025-04-02 19:53:20 - INFO - c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2025-04-02 19:53:20 - INFO - c.netflix.discovery.DiscoveryClient - The response status is 200
+2025-04-02 19:53:20 - INFO - c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2025-04-02 19:53:20 - INFO - c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-04-02 19:53:20 - INFO - c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1743603800679 with initial instances count: 3
+2025-04-02 19:53:20 - INFO - o.s.c.n.e.s.EurekaServiceRegistry - Registering application BILLING-SERVICE with eureka with status UP
+2025-04-02 19:53:20 - INFO - c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1743603800680, current=UP, previous=STARTING]
+2025-04-02 19:53:20 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900: registering service...
+2025-04-02 19:53:20 - INFO - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9900 (http) with context path '/'
+2025-04-02 19:53:20 - INFO - o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9900
+2025-04-02 19:53:20 - INFO - c.netflix.discovery.DiscoveryClient - DiscoveryClient_BILLING-SERVICE/DESKTOP-VKRMBR2:Billing-Service:9900 - registration status: 204
+2025-04-02 19:53:20 - INFO - com.egr.ConfigClient1Application - Started ConfigClient1Application in 2.138 seconds (process running for 12567.303)
+2025-04-02 19:53:20 - INFO - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-04-02 19:53:20 - WARN - d.c.b.a.c.r.ApplicationRegistrator - Failed to register application as Application(name=Billing-Service, managementUrl=http://DESKTOP-VKRMBR2:9900/actuator%20%20, healthUrl=http://DESKTOP-VKRMBR2:9900/actuator%20%20/health, serviceUrl=http://DESKTOP-VKRMBR2:9900/) at spring-boot-admin ([http://localhost:9090/instances]): I/O error on POST request for "http://localhost:9090/instances": Connect to http://localhost:9090 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information. Further attempts are logged on DEBUG level
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9090/instances": Connect to http://localhost:9090 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.createResourceAccessException(DefaultRestClient.java:692) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:577) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchange(DefaultRestClient.java:535) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.client.RestClient$RequestHeadersSpec.exchange(RestClient.java:677) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.executeAndExtract(DefaultRestClient.java:809) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.body(DefaultRestClient.java:753) ~[spring-web-6.2.3.jar:6.2.3]
+	at de.codecentric.boot.admin.client.registration.RestClientRegistrationClient.register(RestClientRegistrationClient.java:45) ~[spring-boot-admin-client-3.4.5.jar:3.4.5]
+	at de.codecentric.boot.admin.client.registration.DefaultApplicationRegistrator.register(DefaultApplicationRegistrator.java:80) ~[spring-boot-admin-client-3.4.5.jar:3.4.5]
+	at de.codecentric.boot.admin.client.registration.DefaultApplicationRegistrator.register(DefaultApplicationRegistrator.java:61) ~[spring-boot-admin-client-3.4.5.jar:3.4.5]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.3.jar:6.2.3]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:9090 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:216) ~[httpclient5-5.4.2.jar:5.4.2]
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:490) ~[httpclient5-5.4.2.jar:5.4.2]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164) ~[httpclient5-5.4.2.jar:5.4.2]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174) ~[httpclient5-5.4.2.jar:5.4.2]
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144) ~[httpclient5-5.4.2.jar:5.4.2]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.4.2.jar:5.4.2]
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192) ~[httpclient5-5.4.2.jar:5.4.2]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.4.2.jar:5.4.2]
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:150) ~[httpclient5-5.4.2.jar:5.4.2]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.4.2.jar:5.4.2]
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113) ~[httpclient5-5.4.2.jar:5.4.2]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.4.2.jar:5.4.2]
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110) ~[httpclient5-5.4.2.jar:5.4.2]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.4.2.jar:5.4.2]
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:174) ~[httpclient5-5.4.2.jar:5.4.2]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87) ~[httpclient5-5.4.2.jar:5.4.2]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55) ~[httpclient5-5.4.2.jar:5.4.2]
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183) ~[httpclient5-5.4.2.jar:5.4.2]
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:571) ~[spring-web-6.2.3.jar:6.2.3]
+	... 14 common frames omitted

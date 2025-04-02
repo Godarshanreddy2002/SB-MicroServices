@@ -8,6 +8,7 @@ org.springframework.ide.eclipse.boot.wizard.PopularityTracker.cloud-feign=3
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.codecentric-spring-boot-admin-client=4
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.codecentric-spring-boot-admin-server=1
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.devtools=9
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.lombok=1
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.web=13
 org.springframework.ide.eclipse.boot.wizard.PopularityTracker.zipkin=2
 org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=Customer_Service_Config_Client

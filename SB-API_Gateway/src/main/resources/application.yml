@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: SB-API_Gateway
+  cloud:
+    gateway:
+      routes:
+        - id: Billing_Service
+          uri: lb://BILLING-SERVICE
+          predicates:
+            - Path=/billing/**
+        - id: Shopping_Service
+          uri: lb://SHOPING-SERVICE
+          predicates:
+            - Path=/Shopping/**
+        - id: Shopping_Service_FeignClient
+          uri: lb://SHOPPING-SERVICE-LBC
+          predicates:
+            - Path=/Shopping/**
+        - id: Billing_Service_FeignClient
+          uri: lb://BILLING-SERVICE-LBC
+          predicates:
+            - Path=/billing/**
+
+server:
+  port: 4400

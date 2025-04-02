@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.egr.client.BillingServiceConsumerClient;
 
 @RestController
-@RequestMapping("/shopping")
+@RequestMapping("/Shopping")
 public class ShoopingServiceController
 {
 	@Autowired

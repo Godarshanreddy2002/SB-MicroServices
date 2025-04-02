@@ -22,7 +22,7 @@ public class ShoppingServiceOperationsController
 	
 	private static final Logger logger = LoggerFactory.getLogger(ShoppingServiceOperationsController.class);
 	
-	@GetMapping("/details")
+	@GetMapping("/cart")
 	public ResponseEntity<String> showBillDetails()
 	{
 		
